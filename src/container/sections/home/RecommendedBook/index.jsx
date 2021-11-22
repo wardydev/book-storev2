@@ -1,31 +1,28 @@
 import React from 'react'
-import Placeholder from '../../../../assets/images/placeholder.png'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import ImageOne from '../../../../assets/images/recommended/img1.jpg';
+
+// css
+import './index.css'
 
 export default function RecommendedBook() {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
-
     return (
-        <div>
-            <Slider {...settings}>
-                <div>
-                    <img src={Placeholder} alt="" />
+        <section className="recomended-book px-20">
+            <div className="container flex space-x-5">
+                <div className="card-1 rounded-lg px-16 py-8">
+                    <div className="card-title-1 mb-6">
+                        <h3 className="text-3xl my-2 text-gray-900 font-medium">Recomended For You</h3>
+                        <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <img src={ImageOne} alt="book-1" />
                 </div>
-                <div>
-                    <img src={Placeholder} alt="" />
+                <div className="card-2 bg-purple-200 rounded-lg px-16 py-8">
+                    <div className="card-title-2 mb-6">
+                        <h3 className="text-3xl my-2 text-gray-900 font-medium">Popular in 2020</h3>
+                        <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <img src={ImageOne} alt="book-2" />
                 </div>
-                <div>
-                    <img src={Placeholder} alt="" />
-                </div>
-            </Slider>
-        </div>
+            </div>
+        </section>
     )
 }

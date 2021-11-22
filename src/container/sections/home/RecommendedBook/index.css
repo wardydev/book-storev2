@@ -1,0 +1,68 @@
+.card-1 {
+    background-color: #fff6ef;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-1::before {
+    content: '';
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #ffe7d4;
+    position: absolute;
+    top: -30%;
+    right: -20%;
+}
+
+.card-1::after {
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #ffe7d4;
+    position: absolute;
+    bottom: -20%;
+    left: -10%;
+}
+
+.card-title-1 {
+    position: relative;
+    z-index: 9;
+}
+
+.card-2 {
+    background-color: #E6F1FC;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-2::before {
+    content: '';
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #D7EBFF;
+    position: absolute;
+    top: -30%;
+    right: 10%;
+}
+
+.card-2::after {
+    content: '';
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    background-color: #D7EBFF;
+    position: absolute;
+    bottom: -20%;
+    left: -10%;
+}
+
+.card-title-2 {
+    position: relative;
+    z-index: 9;
+}
+
+/* E6F1FC */
+/* D7EBFF */
