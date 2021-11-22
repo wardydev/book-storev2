@@ -61,7 +61,12 @@
 
 .card-title-2 {
     position: relative;
-    z-index: 9;
+    z-index: 1;
+    }
+
+    .card-image {
+        position: relative;
+        z-index: 2;
 }
 
 /* E6F1FC */
