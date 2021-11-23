@@ -1,0 +1,16 @@
+/* E5E3F3 */
+.featured {
+    position: relative;
+    overflow: hidden;
+}
+
+.featured::before {
+    content: '';
+    width: 400px;
+    height: 400px;
+    background-color: #dad6f1;
+    border-radius: 100%;
+    position: absolute;
+    top: -20%;
+    right: -60px;
+}
