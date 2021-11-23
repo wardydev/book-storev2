@@ -42,7 +42,7 @@ export default function SpecialOffers() {
                         </div>
 
                         <div className="px-4 py-5">
-                            <h4 className="text-gray-900 text-2xl font-medium mb-4">SECONDS [Part 1]</h4>
+                            <h4 className="text-gray-900 text-2xl font-medium mb-4">Terrible Madness</h4>
                             <div className="flex space-x-2 items-center mb-4">
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full">BIOGRAPHY</button>
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full">THRILLER</button>
@@ -64,7 +64,7 @@ export default function SpecialOffers() {
                         </div>
 
                         <div className="px-4 py-5">
-                            <h4 className="text-gray-900 text-2xl font-medium mb-4">SECONDS [Part 1]</h4>
+                            <h4 className="text-gray-900 text-2xl font-medium mb-4">Rework</h4>
                             <div className="flex space-x-2 items-center mb-4">
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full">BIOGRAPHY</button>
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full">THRILLER</button>
