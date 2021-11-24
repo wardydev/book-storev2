@@ -9,7 +9,7 @@ import BookSix from '../../../assets/images/bookOnSale/img6.jpg'
 
 export default function BookOnSale() {
     return (
-        <section className="px-20 py-28">
+        <section className="px-20 pt-28">
             <div className="container">
                 <div className="mb-8">
                     <h3 className="text-4xl my-2 text-gray-900 font-bold">Book On Sale</h3>

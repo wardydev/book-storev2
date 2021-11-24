@@ -7,7 +7,7 @@ import BookOne from '../../../../assets/images/featured/img1.jpg'
 
 export default function FeaturedBook() {
     return (
-        <section className="featured px-20 py-12 bg-purple-100">
+        <section className="featured px-20 py-12 mt-28 bg-purple-100">
             <div className="container grid grid-cols-2 items-center gap-8 relative z-10">
                 <div>
                     {/* titile */}
