@@ -2,6 +2,7 @@ import React from 'react'
 
 // img
 import Logo from '../../../assets/logo/logo.svg'
+import MapLocation from '../../../assets/images/footer/img1.JPG'
 
 export default function Footer() {
     return (
@@ -71,31 +72,30 @@ export default function Footer() {
                 </div>
                 <div>
                     <h4 className="text-gray-800 font-bold mb-4">Our Store</h4>
-                    <div className="flex items-start space-x-12">
-                        <div className="h-28 w-full bg-gray-300 rounded-lg"></div>
+                    <div className="flex items-start">
+                        <div className="h-28 w-full bg-gray-300 rounded-lg overflow-hidden">
+                            <img src={MapLocation} alt="map location" />
+                        </div>
                     </div>
 
                     <div className="mt-4">
-                        <div className="flex items-center space-x-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 mb-2 w-12 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
-                            <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+                        <div className="flex items-center space-x-2 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                             </svg>
 
                             <span className="text-gray-500">832  Thompson Drive</span>
                         </div>
-                        <div className="flex items-center space-x-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 mb-2 w-12 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
-                            <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+                        <div className="flex items-center space-x-2 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                             </svg>
 
                             <span className="text-gray-500">+123 345123 556</span>
                         </div>
-                        <div className="flex items-center space-x-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 mb-2 w-12 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
-                            <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+                        <div className="flex items-center space-x-2 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z" clipRule="evenodd" />
                             </svg>
 
                             <span className="text-gray-500">support@bookoe.id</span>
@@ -107,7 +107,7 @@ export default function Footer() {
 
             <div className="flex justify-between items-center px-20 py-6">
                 <div className="text-gray-800">
-                    <span>Bookoe Book Store Website  -   </span>
+                    <span>Bookoe Book Store Website</span>
                     <span>© 2020 All Rights Reserved</span>
                 </div>
                 <span>Made with ♥ by Peterdraw</span>
