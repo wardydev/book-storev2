@@ -1,5 +1,7 @@
 import React from 'react'
 import ImageOne from '../../../../assets/images/recommended/img1.jpg';
+import ImageTwo from '../../../../assets/images/recommended/img2.jpg';
+import ImageThree from '../../../../assets/images/recommended/img3.jpg';
 
 // css
 import './index.css'
@@ -15,8 +17,8 @@ export default function RecommendedBook() {
                     </div>
                     <div className="card-image flex items-center space-x-2">
                         <img src={ImageOne} alt="book-1" />
-                        <img src={ImageOne} alt="book-1" />
-                        <img src={ImageOne} alt="book-1" />
+                        <img src={ImageTwo} alt="book-1" />
+                        <img src={ImageThree} alt="book-1" />
                     </div>
                 </div>
                 <div className="card-2 bg-purple-200 rounded-lg px-16 py-8">
@@ -26,8 +28,8 @@ export default function RecommendedBook() {
                     </div>
                     <div className="card-image flex items-center space-x-2">
                         <img src={ImageOne} alt="book-1" />
-                        <img src={ImageOne} alt="book-1" />
-                        <img src={ImageOne} alt="book-1" />
+                        <img src={ImageTwo} alt="book-1" />
+                        <img src={ImageThree} alt="book-1" />
                     </div>
                 </div>
             </div>

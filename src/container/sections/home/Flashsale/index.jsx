@@ -3,6 +3,10 @@ import React from 'react'
 // css
 // image
 import FlashOne from '../../../../assets/images/flashsale/img1.jpg'
+import FlashTwo from '../../../../assets/images/flashsale/img2.jpg'
+import FlashThree from '../../../../assets/images/flashsale/img3.jpg'
+import FlashFour from '../../../../assets/images/flashsale/img4.jpg'
+import FlashFive from '../../../../assets/images/flashsale/img5.jpg'
 
 export default function Flashsale() {
     return (
@@ -43,7 +47,7 @@ export default function Flashsale() {
                         <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
                     </div>
                     <div className="text-center">
-                        <img src={FlashOne} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
+                        <img src={FlashTwo} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
                         <div className="text-center mb-4">
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
@@ -51,7 +55,7 @@ export default function Flashsale() {
                         <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
                     </div>
                     <div className="text-center">
-                        <img src={FlashOne} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
+                        <img src={FlashThree} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
                         <div className="text-center mb-4">
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
@@ -59,7 +63,7 @@ export default function Flashsale() {
                         <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
                     </div>
                     <div className="text-center">
-                        <img src={FlashOne} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
+                        <img src={FlashFour} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
                         <div className="text-center mb-4">
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
@@ -67,7 +71,7 @@ export default function Flashsale() {
                         <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
                     </div>
                     <div className="text-center">
-                        <img src={FlashOne} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
+                        <img src={FlashFive} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
                         <div className="text-center mb-4">
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
