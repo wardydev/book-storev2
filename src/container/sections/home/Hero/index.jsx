@@ -35,7 +35,7 @@ export default function Hero() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>
                             </button>
-                            <button className="py-3 px-4 border-2 border-gray-600 rounded-lg hover:bg-purple-500 hover:border-0 hover:text-gray-50">See Other Promos</button>
+                            <button className="py-3 px-4 border-2 border-gray-400 rounded-lg hover:bg-gray-100  hover:border-0 hover:text-gray-500">See Other Promos</button>
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,9 @@ export default function Hero() {
                     <div className="text-gray-50">
                         <h4 className="font-medium text-lg">Pushing clouds</h4>
                         <p className="text-xs text-gray-400">ADVANTURE, SCIENCE, COMEDY</p>
-                        <button className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-2 px-6 rounded-lg mt-6">
-                            <span>USD 45.25</span>
+                        <button className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-2 px-6 rounded-lg mt-6 flex items-center justify-center space-x-2 w-full">
+                                <span className="text-gray-400 line-through">$25</span>
+                                <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                         </button>
                     </div>
                 </div> 

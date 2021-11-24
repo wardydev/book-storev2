@@ -48,7 +48,10 @@ export default function FeaturedBook() {
                             </div>
 
                             <div className="flex items-center justify-between">
-                                <span>$487.98</span>
+                                <div className="flex justify-center items-center space-x-2">
+                                    <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
                                 <button className="rounded-lg bg-purple-500 hover:bg-purple-600 text-gray-50 py-2 px-4">Add To Chart</button>
                             </div>
                         </div>

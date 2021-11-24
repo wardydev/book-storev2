@@ -44,7 +44,10 @@ export default function Flashsale() {
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
                         </div>
-                        <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
+                        <div className="flex justify-center items-center space-x-2">
+                            <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                            <span className="text-gray-400 line-through">$25</span>
+                        </div>
                     </div>
                     <div className="text-center">
                         <img src={FlashTwo} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
@@ -52,7 +55,10 @@ export default function Flashsale() {
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
                         </div>
-                        <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
+                        <div className="flex justify-center items-center space-x-2">
+                            <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                            <span className="text-gray-400 line-through">$25</span>
+                        </div>
                     </div>
                     <div className="text-center">
                         <img src={FlashThree} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
@@ -60,7 +66,10 @@ export default function Flashsale() {
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
                         </div>
-                        <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
+                        <div className="flex justify-center items-center space-x-2">
+                            <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                            <span className="text-gray-400 line-through">$25</span>
+                        </div>
                     </div>
                     <div className="text-center">
                         <img src={FlashFour} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
@@ -68,7 +77,10 @@ export default function Flashsale() {
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
                         </div>
-                        <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
+                        <div className="flex justify-center items-center space-x-2">
+                            <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                            <span className="text-gray-400 line-through">$25</span>
+                        </div>
                     </div>
                     <div className="text-center">
                         <img src={FlashFive} alt="book-1" className="mx-auto rounded-lg mb-4" width="180" />
@@ -76,7 +88,10 @@ export default function Flashsale() {
                             <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
                             <p className="text-gray-600">THRILLERR</p>
                         </div>
-                        <h3 className="text-purple-500 text-center font-medium text-2xl">$54.78</h3>
+                        <div className="flex justify-center items-center space-x-2">
+                            <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                            <span className="text-gray-400 line-through">$25</span>
+                        </div>
                     </div>
                 </div>
 

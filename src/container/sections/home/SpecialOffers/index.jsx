@@ -30,8 +30,16 @@ export default function SpecialOffers() {
 
                             <b className="mb-4">Kevin Smiley</b>
                             <div className="flex justify-between items-center mt-4">
-                                <button className="bg-purple-600 hover:bg-purple-700 text-gray-50 py-2 px-4 rounded-lg">Add To Chart</button>
-                                <button className="text-gray-900 text-2xl font-medium py-2 px-4 rounded-lg">$18,78</button>
+                                <button className="bg-purple-600 hover:bg-purple-700 text-gray-50 py-2 px-4 rounded-lg flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                    <span>Add To Chart</span>
+                                </button>
+                                <div className="flex items-center space-x-2">
+                                    <h4 className="text-gray-900 text-2xl font-medium rounded-lg text-purple-600">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -52,8 +60,16 @@ export default function SpecialOffers() {
 
                             <b className="mb-4">Kevin Smiley</b>
                             <div className="flex justify-between items-center mt-4">
-                                <button className="bg-purple-600 hover:bg-purple-700 text-gray-50 py-2 px-4 rounded-lg">Add To Chart</button>
-                                <button className="text-gray-900 text-2xl font-medium py-2 px-4 rounded-lg">$18,78</button>
+                                <button className="bg-purple-600 hover:bg-purple-700 text-gray-50 py-2 px-4 rounded-lg flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                    <span>Add To Chart</span>
+                                </button>
+                                <div className="flex items-center space-x-2">
+                                    <h4 className="text-gray-900 text-2xl font-medium rounded-lg text-purple-600">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -74,8 +90,16 @@ export default function SpecialOffers() {
 
                             <b className="mb-4">Kevin Smiley</b>
                             <div className="flex justify-between items-center mt-4">
-                                <button className="bg-purple-600 hover:bg-purple-700 text-gray-50 py-2 px-4 rounded-lg">Add To Chart</button>
-                                <button className="text-gray-900 text-2xl font-medium py-2 px-4 rounded-lg">$18,78</button>
+                                <button className="bg-purple-600 hover:bg-purple-700 text-gray-50 py-2 px-4 rounded-lg flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                    <span>Add To Chart</span>
+                                </button>
+                                <div className="flex items-center space-x-2">
+                                    <h4 className="text-gray-900 text-2xl font-medium rounded-lg text-purple-600">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
                             </div>
                         </div>
                     </div>
