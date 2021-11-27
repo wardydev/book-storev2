@@ -14,7 +14,7 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="books" element={<Books />} />
-                <Route path="book-detail" element={<BookDetail />} />
+                <Route path="detail-book" element={<BookDetail />} />
                 <Route path="checkout" element={<Checkout />} />
             </Routes>
         </div>
