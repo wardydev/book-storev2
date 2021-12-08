@@ -6,7 +6,7 @@ import MapLocation from '../../../assets/images/footer/img1.JPG'
 
 export default function Footer() {
     return (
-        <footer className="pt-36">
+        <footer className="pt-10">
             <div className="grid grid-cols-4 gap-4 px-20 mb-8 ">
                 <div>
                     <div className="mb-4">
