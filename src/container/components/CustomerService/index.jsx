@@ -1,9 +1,10 @@
 import React from 'react'
+import Reviews from '../Reviews'
 
 export default function CustomerService() {
     return (
         <div className="py-4 pr-4">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mb-16">
                 <div className='w-4/12'>
                     <h3 className="text-xl mb-2 font-bold">Rating Information</h3>
                     <p className='text-gray-500'>"Lorem ipsum dolor sit amet, conse adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, itaque.</p>
@@ -94,6 +95,8 @@ export default function CustomerService() {
                     </div>
                 </div>
             </div>
+
+            <Reviews />
         </div>
     )
 }
