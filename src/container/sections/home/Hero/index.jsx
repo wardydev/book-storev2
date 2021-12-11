@@ -18,31 +18,31 @@ export default function Hero() {
       };
 
     return (
-        <section className="px-20">
-            <div className="container flex space-x-4">
-                <div className="hero-special grid-1 w-3/4 min-h-20 bg-purple-100 rounded-lg py-20 px-16">
-                    <div className="hero-title text-gray-800 w-3/5">
+        <section className="px-6 lg:px-20">
+            <div className="container flex flex-col lg:flex-row space-x-0 lg:space-x-4">
+                <div className="hero-special mb-10 lg:mb-0 w-full lg:w-3/4 min-h-20 bg-purple-100 rounded-lg py-20 px-4 lg:px-16">
+                    <div className="hero-title w-full lg:w-3/5">
                         <span className="text-purple-500">BACK TO SCHOOL</span>
-                        <h1 className="text-6xl font-bold mt-4">Special 50% Off</h1>
-                        <h3 className="text-3xl my-4 text-gray-600">for our student community</h3>
-                        <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <h1 className="text-5xl lg:text-6xl font-bold mt-4 text-gray-900">Special 50% Off</h1>
+                        <h3 className="text-2xl my-4 text-gray-700">for our student community</h3>
+                        <p className="text-gray-500 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
                         
-                        <div className="flex space-x-4 items-center mt-8">
-                            <button className="flex items-center bg-purple-500 hover:bg-purple-600 rounded-lg py-3 px-4 text-gray-50 filter drop-shadow-xl">
-                                <span className="mr-3">Get the deal</span>
+                        <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-4 space-y-4 lg:space-y-0 items-center justify-center lg:justify-start mt-8">
+                            <button className="flex items-center justify-center bg-purple-600 hover:bg-purple-700 rounded-lg py-3 px-4 text-gray-50 filter drop-shadow-xl w-full lg:w-auto">
+                                <span className="mr-3 font-medium">Get the deal</span>
 
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>
                             </button>
-                            <button className="py-3 px-4 border-2 border-gray-400 rounded-lg hover:bg-gray-100  hover:border-0 hover:text-gray-500">See Other Promos</button>
+                            <button className="py-3 px-4 border border-purple-600 rounded-lg text-purple-600 hover:text-purple-700 w-full lg:w-auto font-medium">See Other Promos</button>
                         </div>
                     </div>
                 </div>
-                <div className="w-1/4 bg-gray-900 rounded-lg flex flex-col justify-center items-center text-center py-8 px-12">
-                    <div className="text-gray-50">
-                        <h3 className="text-4xl">Best Seller</h3>
-                        <p className="text-gray-400">Based sales this week</p>
+                <div className="w-full lg:w-1/4 bg-gray-900 rounded-lg flex flex-col justify-center items-center text-center py-8 px-16 lg:px-12">
+                    <div >
+                        <h3 className="text-4xl text-gray-50">Best Seller</h3>
+                        <p className="text-gray-300 text-lg">Based sales this week</p>
                     </div>
 
                     <div className="w-full text-center h-64">
@@ -57,10 +57,10 @@ export default function Hero() {
                     </div>
 
 
-                    <div className="text-gray-50">
-                        <h4 className="font-medium text-lg">Pushing clouds</h4>
-                        <p className="text-xs text-gray-400">ADVANTURE, SCIENCE, COMEDY</p>
-                        <button className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-2 px-6 rounded-lg mt-6 flex items-center justify-center space-x-2 w-full">
+                    <div className='w-full lg:w-auto'>
+                        <h4 className="font-medium text-lg text-gray-100">Pushing clouds</h4>
+                        <p className="text-sm text-gray-300">ADVANTURE, SCIENCE, COMEDY</p>
+                        <button className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-3 px-6 rounded-lg mt-6 flex items-center justify-center space-x-2 w-full cursor-pointer relative z-10">
                                 <span className="text-gray-400 line-through">$25</span>
                                 <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                         </button>
