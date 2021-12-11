@@ -14,7 +14,7 @@ export default function Hero() {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToScroll: 2
       };
 
     return (
@@ -39,19 +39,19 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className="w-1/4 min-h-20 bg-gray-900 rounded-lg flex flex-col justify-center items-center text-center py-8 px-12">
+                <div className="w-1/4 bg-gray-900 rounded-lg flex flex-col justify-center items-center text-center py-8 px-12">
                     <div className="text-gray-50">
                         <h3 className="text-4xl">Best Seller</h3>
                         <p className="text-gray-400">Based sales this week</p>
                     </div>
 
-                    <div className="w-full text-center">
+                    <div className="w-full text-center h-64">
                         <Slider {...settings}>
-                            <div className="text-center rounded-lg overflow-hidden px-4">
-                                <img src={Placeholder} alt="placeholder" className="rounded-lg py-4 w-full" />
+                            <div className="text-center rounded-lg overflow-hidden">
+                                <img src={Placeholder} alt="placeholder" className="rounded-lg py-4" />
                             </div>
-                            <div className="text-center rounded-lg overflow-hidden px-4">
-                                <img src={Placeholder} alt="placeholder" className="rounded-lg py-4 w-full" />
+                            <div className="text-center rounded-lg overflow-hidden">
+                                <img src={Placeholder} alt="placeholder" className="rounded-lg py-4" />
                             </div>
                         </Slider>
                     </div>
@@ -70,3 +70,4 @@ export default function Hero() {
         </section>
     )
 }
+
