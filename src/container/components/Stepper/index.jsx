@@ -30,7 +30,7 @@ export default function Stepper() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
 
-                        <div className="h-1 w-20 lg:w-72 bg-purple-500 absolute left-full top-2/4"></div>
+                        <div className="h-1 w-20 lg:w-56 bg-purple-500 absolute left-full top-2/4"></div>
                     </div>
                     <p className="font-medium hidden lg:block">Payments</p>
                 </div>
