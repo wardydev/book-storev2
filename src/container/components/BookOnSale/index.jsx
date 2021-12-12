@@ -13,7 +13,7 @@ import BookSix from '../../../assets/images/bookOnSale/img6.jpg'
 
 export default function BookOnSale() {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 5,
@@ -26,7 +26,7 @@ export default function BookOnSale() {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             }
         ]

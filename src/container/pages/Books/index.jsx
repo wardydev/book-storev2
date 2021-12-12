@@ -23,8 +23,8 @@ export default function Books() {
 
             <BreadCrumbs />
 
-            <section className="side-menus px-20 mt-12 flex space-x-8">
-                <div className="w-1/4">
+            <section className="side-menus px-6 lg:px-20 mt-12 flex space-x-0 lg:space-x-8">
+                <div className="w-full lg:w-1/4 hidden lg:block">
                     <h2 className="text-gray-900 font-bold text-3xl">Filter Option</h2>
 
                     <div className="menus mt-6">
@@ -157,7 +157,7 @@ export default function Books() {
                 <BookCollection />
             </section>
             <BookOnSale />
-            <div className="py-16">
+            <div className='pb-20'>
                 <Features />
             </div>
             <Newsletter />

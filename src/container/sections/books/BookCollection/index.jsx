@@ -11,7 +11,7 @@ export default function BookCollection() {
                 <h2 className="text-gray-900 font-bold text-3xl mb-6">Books</h2>
 
                 {/* book menus */}
-                <div className="flex items-center">
+                <div className="flex flex-wrap lg:flex-nowrap space-y-2 lg:space-y-0 justify-center lg:justify-start items-center">
                     <div className="px-6 py-2 border border-gray-200 flex justify-between items-center rounded-tl-lg rounded-bl-lg w-full w-5/6">
                         <div className="flex space-x-4">
                             <Link to="/books" className="text-gray-900 font-medium">Today</Link>
@@ -46,7 +46,7 @@ export default function BookCollection() {
 
                 {/* books */}
 
-                <div className="mt-6 grid grid-cols-4 gap-4">
+                <div className="mt-6 grid grid-cols-2 lg:grid-cols-4 gap-x-0 lg:gap-x-4 gap-y-4 lg:gap-y-0">
                     <div className="border border-gray-200 rounded-lg p-4">
                         <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
@@ -251,16 +251,16 @@ export default function BookCollection() {
                 
                 {/* pagination */}
                 <div className="flex items-center justify-between mt-12">
-                    <span>Showing 12 from 15 data</span>
+                    <span className='hidden lg:block'>Showing 12 from 15 data</span>
 
-                    <div className="flex items-center space-x-6">
-                        <button className="py-3 rounded-lg bg-gray-100 hover:bg-gray-200 px-6 font-medium">Previous</button>
+                    <div className="flex items-center space-x-0 lg:space-x-6">
+                        <button className="py-3 rounded-lg bg-gray-100 hover:bg-gray-200 px-6 font-medium hidden lg:block">Previous</button>
                         <div className="flex items-center space-x-4 border border-gray-200 rounded-lg">
                             <span className="py-3 px-5 bg-purple-500 text-gray-50 rounded-lg font-medium">1</span>
                             <span className="py-3 px-5 font-medium">2</span>
                             <span className="py-3 px-5 font-medium">3</span>
                         </div>
-                        <button className="py-3 rounded-lg bg-gray-100 hover:bg-gray-200 px-6 font-medium">Next</button>
+                        <button className="py-3 rounded-lg bg-gray-100 hover:bg-gray-200 px-6 font-medium hidden lg:block">Next</button>
                     </div>
                 </div>
 
