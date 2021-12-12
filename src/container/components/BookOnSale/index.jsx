@@ -18,16 +18,23 @@ export default function BookOnSale() {
         speed: 500,
         slidesToShow: 5,
         slidesToScroll: 1,
-        appendDots: dots => (
-            <div>
-              <ul style={{ margin: "-420px" }}> {dots} </ul>
-            </div>
-          )
-      }
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
+        }
 
 
     return (
-        <section className="px-20 pt-28 book-sale -mb-96">
+        <section className="px-6 lg:px-20 pt-28 lg:pt-40 pb-10 lg:pb-28 book-sale -mb-96">
             <div className="container">
                 <div className="mb-12">
                     <h3 className="text-4xl my-2 text-gray-900 font-bold">Book On Sale</h3>

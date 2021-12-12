@@ -6,14 +6,14 @@ import BookOne from '../../../../assets/images/offers/img1.jpg';
 
 export default function SpecialOffers() {
     return (
-        <section className="special-offers px-20 py-28">
+        <section className="special-offers px-6 lg:px-20 py-28">
             <div className="container">
-                <div className="text-center w-2/4 mx-auto mb-16">
+                <div className="text-left lg:text-center w-full lg:w-2/4 mx-auto mb-16">
                     <h3 className="text-4xl my-2 text-gray-900 font-bold">Special Offers</h3>
-                    <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam consequuntur corrupti nam unde! Quaerat</p>
+                    <p className="text-gray-600 text-lg lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam consequuntur corrupti nam unde! Quaerat</p>
                 </div>
 
-                <div className="grid grid-cols-3 gap-8">
+                <div className="grid grid-col-1 lg:grid-cols-3 gap-8">
                     <div className="rounded-lg overflow-hidden shadow-sm hover:shadow-lg">
                         <div className="h-56 bg-red-900 rounded-lg overflow-hidden">
                             <img src={BookOne} alt="book-1" />

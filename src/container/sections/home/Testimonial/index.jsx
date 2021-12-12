@@ -12,15 +12,26 @@ export default function Testimonial() {
           slidesToShow: 3,
           speed: 500,
           dots: false,
-          arrows: false
+          arrows: false,
+          responsive: [
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }
+        ]
         }
 
     return (
-        <section className="pt-36 overflow-hidden">
+        <section className="pt-36 overflow-hidden -mb-48 lg:mb-0">
             <div className="container w-full mx-auto">
-                <div className="text-center w-2/5 mx-auto mb-12">
+                <div className="text-center w-full lg:w-2/5 mx-0 lg:mx-auto mb-12">
                     <h3 className="text-4xl my-2 text-gray-900 font-bold">Flash Shale</h3>
-                    <p className="text-gray-600 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam consequuntur corrupti nam unde! Quaerat</p>
+                    <p className="text-gray-600 text-lg lg:text-base mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam consequuntur corrupti nam unde! Quaerat</p>
                     <div className="flex items-center justify-center -space-x-4">
                         <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200"></div>
                         <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200"></div>
@@ -38,8 +49,8 @@ export default function Testimonial() {
                             <div className="text-center mb-6">
                                 <p className="font-medium text-gray-900">Shoping book in Bookoe is very easy. Quick delivery and fast respon. They services is awesome!</p>
                             </div>
-                            <div className="flex items-center justify-between">
-                                <div className="flex items-center space-x-4">
+                            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+                                <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-4 mb-4 lg:mb-0">
                                     <div className="w-14 h-14 rounded-full bg-gray-500"></div>
                                     <div>
                                         <b className="text-gray-800 font-medium">Haerul wardi</b>
@@ -64,8 +75,8 @@ export default function Testimonial() {
                             <div className="text-center mb-6">
                                 <p className="font-medium text-gray-900">Shoping book in Bookoe is very easy. Quick delivery and fast respon. They services is awesome!</p>
                             </div>
-                            <div className="flex items-center justify-between">
-                                <div className="flex items-center space-x-4">
+                            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+                                <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-4 mb-4 lg:mb-0">
                                     <div className="w-14 h-14 rounded-full bg-gray-500"></div>
                                     <div>
                                         <b className="text-gray-800 font-medium">Haerul wardi</b>
@@ -90,8 +101,8 @@ export default function Testimonial() {
                             <div className="text-center mb-6">
                                 <p className="font-medium text-gray-900">Shoping book in Bookoe is very easy. Quick delivery and fast respon. They services is awesome!</p>
                             </div>
-                            <div className="flex items-center justify-between">
-                                <div className="flex items-center space-x-4">
+                            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+                                <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-4 mb-4 lg:mb-0">
                                     <div className="w-14 h-14 rounded-full bg-gray-500"></div>
                                     <div>
                                         <b className="text-gray-800 font-medium">Haerul wardi</b>
@@ -116,8 +127,8 @@ export default function Testimonial() {
                             <div className="text-center mb-6">
                                 <p className="font-medium text-gray-900">Shoping book in Bookoe is very easy. Quick delivery and fast respon. They services is awesome!</p>
                             </div>
-                            <div className="flex items-center justify-between">
-                                <div className="flex items-center space-x-4">
+                            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+                                <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-4 mb-4 lg:mb-0">
                                     <div className="w-14 h-14 rounded-full bg-gray-500"></div>
                                     <div>
                                         <b className="text-gray-800 font-medium">Haerul wardi</b>

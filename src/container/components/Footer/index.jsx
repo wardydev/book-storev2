@@ -7,8 +7,8 @@ import MapLocation from '../../../assets/images/footer/img1.JPG'
 export default function Footer() {
     return (
         <footer className="pt-10">
-            <div className="grid grid-cols-4 gap-4 px-20 mb-8 ">
-                <div>
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 px-6 lg:px-20 mb-8 ">
+                <div className='mb-6 lg:mb-0'>
                     <div className="mb-4">
                         <img src={Logo} alt="logo" className="mb-6" />
                         <p className="text-gray-600">Bookoe is a Book Store Website lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
@@ -35,7 +35,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='mb-6 lg:mb-0'>
                     <h4 className="text-gray-800 font-bold mb-4">Books Categories</h4>
                     <div className="flex items-start space-x-12">
                         <div className="flex flex-col opacity-80 space-y-2">
@@ -57,7 +57,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='mb-6 lg:mb-0'>
                     <h4 className="text-gray-800 font-bold mb-4">Quick Links</h4>
                     <div className="flex items-start space-x-12">
                         <div className="flex flex-col opacity-60 space-y-2">
@@ -70,7 +70,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='mb-6 lg:mb-0'>
                     <h4 className="text-gray-800 font-bold mb-4">Our Store</h4>
                     <div className="flex items-start">
                         <div className="h-28 w-full bg-gray-300 rounded-lg overflow-hidden">
@@ -105,7 +105,7 @@ export default function Footer() {
             </div>
             <hr className="w-full" />
 
-            <div className="flex justify-between items-center px-20 py-6">
+            <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center px-6 lg:px-20 py-6">
                 <div className="text-gray-800">
                     <span>Bookoe Book Store Website</span>
                     <span>© 2020 All Rights Reserved</span>

@@ -7,8 +7,8 @@ import IconFour from '../../../../assets/icons/thrust/icon4.svg'
 
 export default function Thrust() {
     return (
-        <section className="px-20 py-20">
-            <div className="container flex items-center justify-center space-x-36">
+        <section className="px-6 lg:px-20 py-20">
+            <div className="container flex flex-col lg:flex-row items-center justify-center space-x-0 space-y-16 lg:space-y-0 lg:space-x-36">
                 <div className="text-center">
                     <img src={IconOne} alt="icon-1" className="mb-2 mx-auto" width="75" />
                     <div>

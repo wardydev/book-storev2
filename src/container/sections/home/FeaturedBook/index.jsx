@@ -7,18 +7,18 @@ import BookOne from '../../../../assets/images/featured/img1.jpg'
 
 export default function FeaturedBook() {
     return (
-        <section className="featured px-20 py-12 mt-28 bg-purple-100">
-            <div className="container grid grid-cols-2 items-center gap-8 relative z-10">
+        <section className="featured px-6 lg:px-20 py-20 lg:py-12 mt-28 bg-purple-100">
+            <div className="container grid grid-cols-1 lg:grid-cols-2 items-center gap-8 relative z-10">
                 <div>
                     {/* titile */}
-                    <div className="mb-4 w-2/3">
+                    <div className="mb-16 lg:mb-4 w-full lg:w-2/3">
                         <h3 className="text-4xl my-2 text-gray-900 font-bold">Featured Book</h3>
-                        <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam consequuntur corrupti nam unde! Quaerat</p>
+                        <p className="text-gray-600 text-lg lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam consequuntur corrupti nam unde! Quaerat</p>
                     </div>
 
                     {/* card */}
-                    <div className="px-6 py-8 rounded-lg bg-gray-50 flex space-x-6 shadow-xl">
-                        <img src={BookOne} alt="book-1" className="rounded-lg" width="240" />
+                    <div className="px-6 py-8 rounded-lg bg-gray-50 flex flex-col lg:flex-row space-x-0 lg:space-x-6 shadow-xl">
+                        <img src={BookOne} alt="book-1" className="rounded-lg w-full lg:w-2/4 mb-10 lg:mb-0" />
 
                         <div>
                             <div className="flex items-center space-x-2 mb-4">
@@ -33,7 +33,7 @@ export default function FeaturedBook() {
 
                             </div>
                             <div className="mb-4">
-                                <p className="font-medium text-gray-800 mb-2">Synopsis</p>
+                                <p className="font-medium text-gray-800 text-xl lg:text-base mb-2">Synopsis</p>
                                 <p className="text-gray-500">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iure exercitationem perferendis dolor odio quisquam quasi, quo deserunt quae eos!"</p>
                             </div>
                             <div className="flex space-x-4 mb-6">
@@ -62,7 +62,7 @@ export default function FeaturedBook() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-3 gap-5 py-4">
+                <div className="hidden lg:grid grid-cols-3 gap-5 py-4">
                     <img src={BookOne} alt="book-1" className="rounded-lg" />
                     <img src={BookOne} alt="book-1" className="rounded-lg" />
                     <img src={BookOne} alt="book-1" className="rounded-lg" />
