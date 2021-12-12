@@ -5,7 +5,7 @@ import BookOne from '../../../../assets/images/placeholder.jpg'
 
 export default function RelatedBooks() {
     return (
-        <section className="w-1/4">
+        <section className="w-full lg:w-1/4">
             <div>
                 <h3 className="text-gray-900 font-medium text-2xl">Related Books</h3>
 

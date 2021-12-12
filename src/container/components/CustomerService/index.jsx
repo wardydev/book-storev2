@@ -3,13 +3,13 @@ import Reviews from '../Reviews'
 
 export default function CustomerService() {
     return (
-        <div className="py-4 pr-4">
-            <div className="flex justify-between items-center mb-16">
-                <div className='w-4/12'>
-                    <h3 className="text-xl mb-2 font-bold">Rating Information</h3>
+        <div className="py-4 pr-0 lg:pr-4 mb-12 lg:mb-0">
+            <div className="flex flex-col lg:flex-row justify-between items-center mb-16">
+                <div className='w-full lg:w-4/12 mb-6 lg:mb-0'>
+                    <h3 className="text-xl mb-2 font-medium">Rating Information</h3>
                     <p className='text-gray-500'>"Lorem ipsum dolor sit amet, conse adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, itaque.</p>
                 </div>
-                <div className='w-2/5'>
+                <div className='w-full lg:w-2/5'>
                     <div className='flex items-center space-x-2 mb-2'>
                         <div className="flex items-center space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">

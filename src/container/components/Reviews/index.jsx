@@ -21,7 +21,7 @@ export default function Reviews() {
 
             <div>
 
-                <div className="border rounded-lg border-gray-300 p-8 flex items-center justify-between space-x-6 mb-4">
+                <div className="border rounded-lg border-gray-300 p-8 flex flex-col lg:flex-row items-center justify-between space-x-0 lg:space-x-6 mb-4">
                     <div>
                         <div className="flex items-center space-x-4 mb-6">
                             <div className="h-12 w-12 rounded-lg bg-red-500"></div>
@@ -53,7 +53,7 @@ export default function Reviews() {
                         </div>
                     </div>
                 </div>
-                <div className="border rounded-lg border-gray-300 p-8 flex items-center justify-between space-x-6 mb-4">
+                <div className="border rounded-lg border-gray-300 p-8 flex flex-col lg:flex-row items-center justify-between space-x-0 lg:space-x-6 mb-4">
                     <div>
                         <div className="flex items-center space-x-4 mb-6">
                             <div className="h-12 w-12 rounded-lg bg-red-500"></div>
@@ -85,7 +85,7 @@ export default function Reviews() {
                         </div>
                     </div>
                 </div>
-                <div className="border rounded-lg border-gray-300 p-8 flex items-center justify-between space-x-6 mb-4">
+                <div className="border rounded-lg border-gray-300 p-8 flex flex-col lg:flex-row items-center justify-between space-x-0 lg:space-x-6 mb-4">
                     <div>
                         <div className="flex items-center space-x-4 mb-6">
                             <div className="h-12 w-12 rounded-lg bg-red-500"></div>

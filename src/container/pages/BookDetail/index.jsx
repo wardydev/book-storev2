@@ -17,7 +17,7 @@ export default function BookDetail() {
             <BreadCrumbs />
             <DetailsBook />
             
-            <div className="px-20 py-16 flex space-x-6 items-start">
+            <div className="px-6 lg:px-20 py-16 flex flex-col lg:flex-row space-x-0 lg:space-x-6 items-start">
                 <ProductMenus />
                 <RelatedBooks />
             </div>

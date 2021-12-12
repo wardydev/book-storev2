@@ -11,8 +11,8 @@ import ImageSeven from '../../../../assets/images/subsciption/img7.png'
 
 export default function Sponsorship() {
     return (
-        <section className="px-20 py-36">
-            <div className="flex items-center flex-wrap justify-center space-x-20 space-y-12">
+        <section className="px-6 lg:px-20 pb-36 pt-36 lg:pt-0">
+            <div className="flex flex-col lg:flex-row items-center flex-wrap justify-center space-x-0 lg:space-x-20 space-y-12">
                 <img src={ImageOne} alt="dummy" />
                 <img src={ImageTwo} alt="dummy" />
                 <img src={ImageThree} alt="dummy" />

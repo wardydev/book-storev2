@@ -11,7 +11,7 @@ export default function Checkout() {
         <Layout>
             <BreadCrumbs />
             <Stepper />
-            <section className="px-20 py-16 flex space-x-6">
+            <section className="px-6 lg:px-20 py-16 flex flex-col lg:flex-row space-x-0 lg:space-x-6">
                 <BuyerInfo />
                 <Payments />
             </section>

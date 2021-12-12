@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Payments() {
     return (
-        <main className="w-1/2">
-            <h2 className="text-gray-900 font-bold text-3xl mb-10">Buyer Info</h2>
+        <main className="w-full lg:w-1/2">
+            <h2 className="text-gray-900 font-bold text-3xl mb-10">Payment</h2>
 
             <div className="grid grid-cols-3 gap-x-3 mb-10">
                 <div className="h-32 w-full border-2 border-gray-200 rounded-lg flex items-center justify-center">
@@ -33,7 +33,7 @@ export default function Payments() {
                             <input type="text" className="py-3 px-2 rounded-lg border border-gray-200 focus:outline-none" />
                         </div>
                     </div>
-                    <div className="flex items-center space-x-2 mb-6">
+                    <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 items-center space-x-0 lg:space-x-2 mb-6">
                         <div className="flex flex-col space-y-2 w-full">
                             <label htmlFor="" className="font-medium  text-gray-500 text-xs">FIRSTNAME</label>
                             <input type="text" className="py-3 px-2 rounded-lg border border-gray-200 focus:outline-none" />
@@ -43,7 +43,7 @@ export default function Payments() {
                             <input type="text" className="py-3 px-2 rounded-lg border border-gray-200 focus:outline-none" />
                         </div>
                     </div>
-                    <div className="flex items-center space-x-2 mb-6">
+                    <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 items-center space-x-0 lg:space-x-2 mb-6">
                         <div className="flex flex-col space-y-2 w-full">
                             <label htmlFor="" className="font-medium  text-gray-500 text-xs">FIRSTNAME</label>
                             <input type="text" className="py-3 px-2 rounded-lg border border-gray-200 focus:outline-none" />
