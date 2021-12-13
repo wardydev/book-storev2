@@ -3,7 +3,8 @@ import React from 'react'
 // css
 import './index.css'
 // img
-import BookOne from '../../../../assets/images/featured/img1.jpg'
+import BookLg from '../../../../assets/images/dummy-book/book-lg.jpg'
+import BookSm from '../../../../assets/images/dummy-book/book-sm.jpg'
 
 export default function FeaturedBook() {
     return (
@@ -18,7 +19,7 @@ export default function FeaturedBook() {
 
                     {/* card */}
                     <div className="px-6 py-8 rounded-lg bg-gray-50 flex flex-col lg:flex-row space-x-0 lg:space-x-6 shadow-xl">
-                        <img src={BookOne} alt="book-1" className="rounded-lg w-full lg:w-2/4 mb-10 lg:mb-0" />
+                        <img src={BookLg} alt="book-lg" className="rounded-lg w-full lg:w-2/4 mb-10 lg:mb-0" />
 
                         <div>
                             <div className="flex items-center space-x-2 mb-4">
@@ -63,12 +64,12 @@ export default function FeaturedBook() {
                     </div>
                 </div>
                 <div className="hidden lg:grid grid-cols-3 gap-5 py-4">
-                    <img src={BookOne} alt="book-1" className="rounded-lg" />
-                    <img src={BookOne} alt="book-1" className="rounded-lg" />
-                    <img src={BookOne} alt="book-1" className="rounded-lg" />
-                    <img src={BookOne} alt="book-1" className="rounded-lg" />
-                    <img src={BookOne} alt="book-1" className="rounded-lg" />
-                    <img src={BookOne} alt="book-1" className="rounded-lg" />
+                    <img src={BookSm} alt="book-sm" className="rounded-md w-full" />
+                    <img src={BookSm} alt="book-sm" className="rounded-md w-full" />
+                    <img src={BookSm} alt="book-sm" className="rounded-md w-full" />
+                    <img src={BookSm} alt="book-sm" className="rounded-md w-full" />
+                    <img src={BookSm} alt="book-sm" className="rounded-md w-full" />
+                    <img src={BookSm} alt="book-sm" className="rounded-md w-full" />
                 </div>
             </div>
         </section>

@@ -5,7 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 // assets
-import Placeholder from '../../../../assets/images/placeholder.png'
+import BookSm from '../../../../assets/images/dummy-book/book-sm.jpg'
+
 // slider
 
 export default function Hero() {
@@ -48,10 +49,10 @@ export default function Hero() {
                     <div className="w-full text-center h-64">
                         <Slider {...settings}>
                             <div className="text-center rounded-lg overflow-hidden">
-                                <img src={Placeholder} alt="placeholder" className="rounded-lg py-4" />
+                                <img src={BookSm} alt="book-sm" className="rounded-lg py-4" />
                             </div>
                             <div className="text-center rounded-lg overflow-hidden">
-                                <img src={Placeholder} alt="placeholder" className="rounded-lg py-4" />
+                                <img src={BookSm} alt="book-sm" className="rounded-lg py-4" />
                             </div>
                         </Slider>
                     </div>

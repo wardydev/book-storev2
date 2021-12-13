@@ -5,11 +5,7 @@ import Slider from 'react-slick'
 import './index.css'
 
 // img
-import BookOne from '../../../assets/images/bookOnSale/img1.jpg'
-import BookTwo from '../../../assets/images/bookOnSale/img2.jpg'
-import BookFour from '../../../assets/images/bookOnSale/img4.jpg'
-import BookFive from '../../../assets/images/bookOnSale/img5.jpg'
-import BookSix from '../../../assets/images/bookOnSale/img6.jpg'
+import BookLg from '../../../assets/images/dummy-book/book-lg.jpg'
 
 export default function BookOnSale() {
     const settings = {
@@ -44,7 +40,7 @@ export default function BookOnSale() {
                     <Slider {...settings}>
                         <div>
                             {/* img */}
-                            <img src={BookOne} alt="book-1" className="w-full rounded-2xl" />
+                            <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                             {/* title */}
                             <div className="mt-4 mb-4">
                                 <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
@@ -63,7 +59,7 @@ export default function BookOnSale() {
                         </div>
                         <div>
                             {/* img */}
-                            <img src={BookTwo} alt="book-1" className="w-full rounded-2xl" />
+                            <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                             {/* title */}
                             <div className="mt-4 mb-4">
                                 <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
@@ -82,7 +78,7 @@ export default function BookOnSale() {
                         </div>
                         <div>
                             {/* img */}
-                            <img src={BookFive} alt="book-1" className="w-full rounded-2xl" />
+                            <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                             {/* title */}
                             <div className="mt-4 mb-4">
                                 <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
@@ -101,7 +97,7 @@ export default function BookOnSale() {
                         </div>
                         <div>
                             {/* img */}
-                            <img src={BookFour} alt="book-1" className="w-full rounded-2xl" />
+                            <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                             {/* title */}
                             <div className="mt-4 mb-4">
                                 <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
@@ -120,7 +116,7 @@ export default function BookOnSale() {
                         </div>
                         <div>
                             {/* img */}
-                            <img src={BookFive} alt="book-1" className="w-full rounded-2xl" />
+                            <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                             {/* title */}
                             <div className="mt-4 mb-4">
                                 <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
@@ -139,7 +135,7 @@ export default function BookOnSale() {
                         </div>
                         <div>
                             {/* img */}
-                            <img src={BookSix} alt="book-1" className="w-full rounded-2xl" />
+                            <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                             {/* title */}
                             <div className="mt-4 mb-4">
                                 <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>

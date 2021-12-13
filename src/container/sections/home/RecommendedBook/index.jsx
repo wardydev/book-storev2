@@ -1,7 +1,8 @@
 import React from 'react'
-import ImageOne from '../../../../assets/images/recommended/img1.jpg';
-import ImageTwo from '../../../../assets/images/recommended/img2.jpg';
-import ImageThree from '../../../../assets/images/recommended/img3.jpg';
+
+// images
+import BookSm from '../../../../assets/images/dummy-book/book-sm.jpg'
+
 
 // css
 import './index.css'
@@ -16,9 +17,9 @@ export default function RecommendedBook() {
                         <p className="text-gray-600 text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div className="card-image flex flex-wrap lg:flex-nowrap items-center space-x-0 lg:space-x-2 ">
-                        <img src={ImageOne} alt="book-1" />
-                        <img src={ImageTwo} alt="book-1" />
-                        <img src={ImageThree} alt="book-1" />
+                        <img src={BookSm} className='rounded-sm' alt="book-sm" />
+                        <img src={BookSm} className='rounded-sm' alt="book-sm" />
+                        <img src={BookSm} className='rounded-sm' alt="book-sm" />
                     </div>
                 </div>
                 <div className="card-2 bg-purple-200 rounded-lg px-5 lg:px-16 py-8">
@@ -27,9 +28,9 @@ export default function RecommendedBook() {
                         <p className="text-gray-600 text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div className="card-image flex flex-wrap lg:flex-nowrap items-center space-x-0 lg:space-x-2">
-                        <img src={ImageOne} alt="book-1" />
-                        <img src={ImageTwo} alt="book-1" />
-                        <img src={ImageThree} alt="book-1" />
+                        <img src={BookSm} className='rounded-sm' alt="book-sm" />
+                        <img src={BookSm} className='rounded-sm' alt="book-sm" />
+                        <img src={BookSm} className='rounded-sm' alt="book-sm" />
                     </div>
                 </div>
             </div>

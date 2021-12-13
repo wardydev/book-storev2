@@ -1,6 +1,7 @@
 import React from 'react'
 // img
 import BookOne from '../../../../assets/images/offers/img3.jpg'
+import BookLandscape from '../../../../assets/images/dummy-book/book-landscape.jpg'
 
 export default function Latenews() {
     return (
@@ -17,7 +18,7 @@ export default function Latenews() {
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-0 gap-y-6 lg:gap-y-0 lg:gap-x-8">
                     <div>
                         <div className="h-48 bg-red-500 rounded-lg overflow-hidden mb-6">
-                            <img src={BookOne} alt="book-1" />
+                            <img src={BookLandscape} alt="book-landscape" />
                         </div>
                         <div className="mb-4">
                             <h5 className="font-medium text-gray-800">Why reading is important for our children?</h5>
@@ -33,7 +34,7 @@ export default function Latenews() {
                     </div>
                     <div>
                         <div className="h-48 bg-red-500 rounded-lg overflow-hidden mb-6">
-                            <img src={BookOne} alt="book-1" />
+                            <img src={BookLandscape} alt="book-landscape" />
                         </div>
                         <div className="mb-4">
                             <h5 className="font-medium text-gray-800">Why reading is important for our children?</h5>
@@ -49,7 +50,7 @@ export default function Latenews() {
                     </div>
                     <div>
                         <div className="h-48 bg-red-500 rounded-lg overflow-hidden mb-6">
-                            <img src={BookOne} alt="book-1" />
+                            <img src={BookLandscape} alt="book-landscape" />
                         </div>
                         <div className="mb-4">
                             <h5 className="font-medium text-gray-800">Why reading is important for our children?</h5>
@@ -65,7 +66,7 @@ export default function Latenews() {
                     </div>
                     <div>
                         <div className="h-48 bg-red-500 rounded-lg overflow-hidden mb-6">
-                            <img src={BookOne} alt="book-1" />
+                            <img src={BookLandscape} alt="book-landscape" />
                         </div>
                         <div className="mb-4">
                             <h5 className="font-medium text-gray-800">Why reading is important for our children?</h5>

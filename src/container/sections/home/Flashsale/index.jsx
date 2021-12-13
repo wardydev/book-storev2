@@ -1,12 +1,7 @@
 import React from 'react'
 
-// css
 // image
-import FlashOne from '../../../../assets/images/flashsale/img1.jpg'
-import FlashTwo from '../../../../assets/images/flashsale/img2.jpg'
-import FlashThree from '../../../../assets/images/flashsale/img3.jpg'
-import FlashFour from '../../../../assets/images/flashsale/img4.jpg'
-import FlashFive from '../../../../assets/images/flashsale/img5.jpg'
+import BookLg from '../../../../assets/images/dummy-book/book-lg.jpg'
 
 export default function Flashsale() {
     return (
@@ -39,7 +34,7 @@ export default function Flashsale() {
                 {/* book card */}
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-x-0 gap-y-8 lg:gap-y-0 lg:gap-x-4">
                     <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={FlashOne} alt="book-1" className="mx-auto rounded-lg mb-4" />
+                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
                                 <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
@@ -52,7 +47,7 @@ export default function Flashsale() {
                         </div>
                     </div>
                     <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={FlashTwo} alt="book-1" className="mx-auto rounded-lg mb-4" />
+                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
                                 <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
@@ -65,7 +60,7 @@ export default function Flashsale() {
                         </div>
                     </div>
                     <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={FlashThree} alt="book-1" className="mx-auto rounded-lg mb-4" />
+                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
                                 <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
@@ -78,7 +73,7 @@ export default function Flashsale() {
                         </div>
                     </div>
                     <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={FlashFour} alt="book-1" className="mx-auto rounded-lg mb-4" />
+                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
                                 <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
@@ -91,7 +86,7 @@ export default function Flashsale() {
                         </div>
                     </div>
                     <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={FlashFive} alt="book-1" className="mx-auto rounded-lg mb-4" />
+                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
                                 <h4 className="text-gray-800 font-medium text-2xl">Second</h4>

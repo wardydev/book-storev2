@@ -1,7 +1,7 @@
 import React from 'react'
 
 // img
-import BookOne from '../../../../assets/images/offers/img1.jpg';
+import BookLandscape from '../../../../assets/images/dummy-book/book-landscape.jpg'
 // css
 
 export default function SpecialOffers() {
@@ -16,7 +16,7 @@ export default function SpecialOffers() {
                 <div className="grid grid-col-1 lg:grid-cols-3 gap-8">
                     <div className="rounded-lg overflow-hidden shadow-sm hover:shadow-lg">
                         <div className="h-56 bg-red-900 rounded-lg overflow-hidden">
-                            <img src={BookOne} alt="book-1" />
+                            <img src={BookLandscape} className="w-full rounded-lg" alt="book-landscape" />
                         </div>
 
                         <div className="px-4 py-5">
@@ -46,7 +46,7 @@ export default function SpecialOffers() {
 
                     <div className="rounded-lg overflow-hidden shadow-sm hover:shadow-lg">
                         <div className="h-56 bg-red-900 rounded-lg overflow-hidden">
-                            <img src={BookOne} alt="book-1" />
+                            <img src={BookLandscape} className="w-full rounded-lg" alt="book-landscape" />
                         </div>
 
                         <div className="px-4 py-5">
@@ -76,7 +76,7 @@ export default function SpecialOffers() {
 
                     <div className="rounded-lg overflow-hidden shadow-sm hover:shadow-lg">
                         <div className="h-56 bg-red-900 rounded-lg overflow-hidden">
-                            <img src={BookOne} alt="book-1" />
+                            <img src={BookLandscape} className="w-full rounded-lg" alt="book-landscape" />
                         </div>
 
                         <div className="px-4 py-5">
