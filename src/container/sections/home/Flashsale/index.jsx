@@ -37,11 +37,11 @@ export default function Flashsale() {
                         <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
-                                <p className="text-gray-600">THRILLERR</p>
+                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                <p className="text-gray-600 text-sm">THRILLERR</p>
                             </div>
                             <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
                                 <span className="text-gray-400 line-through">$25</span>
                             </div>
                         </div>
@@ -50,11 +50,11 @@ export default function Flashsale() {
                         <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
-                                <p className="text-gray-600">THRILLERR</p>
+                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                <p className="text-gray-600 text-sm">THRILLERR</p>
                             </div>
                             <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
                                 <span className="text-gray-400 line-through">$25</span>
                             </div>
                         </div>
@@ -63,11 +63,11 @@ export default function Flashsale() {
                         <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
-                                <p className="text-gray-600">THRILLERR</p>
+                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                <p className="text-gray-600 text-sm">THRILLERR</p>
                             </div>
                             <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
                                 <span className="text-gray-400 line-through">$25</span>
                             </div>
                         </div>
@@ -76,11 +76,11 @@ export default function Flashsale() {
                         <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
-                                <p className="text-gray-600">THRILLERR</p>
+                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                <p className="text-gray-600 text-sm">THRILLERR</p>
                             </div>
                             <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
                                 <span className="text-gray-400 line-through">$25</span>
                             </div>
                         </div>
@@ -89,11 +89,11 @@ export default function Flashsale() {
                         <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
                         <div className='flex items-center justify-between'>
                             <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl">Second</h4>
-                                <p className="text-gray-600">THRILLERR</p>
+                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                <p className="text-gray-600 text-sm">THRILLERR</p>
                             </div>
                             <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl font-medium rounded-lg">$18,78</h4>
+                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
                                 <span className="text-gray-400 line-through">$25</span>
                             </div>
                         </div>
