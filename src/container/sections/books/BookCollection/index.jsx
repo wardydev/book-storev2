@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 // image
-import BookOne from '../../../../assets/images/bookOnSale/img1.jpg'
+import BookSm from '../../../../assets/images/dummy-book/book-sm.jpg'
 
 export default function BookCollection() {
     return (
@@ -48,7 +48,7 @@ export default function BookCollection() {
 
                 <div className="mt-6 grid grid-cols-2 lg:grid-cols-4 gap-x-0 lg:gap-x-4 gap-y-4 lg:gap-y-0">
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
@@ -73,7 +73,7 @@ export default function BookCollection() {
                         </div>
                     </div>
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
@@ -98,7 +98,7 @@ export default function BookCollection() {
                         </div>
                     </div>
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
@@ -123,7 +123,7 @@ export default function BookCollection() {
                         </div>
                     </div>
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
@@ -148,7 +148,7 @@ export default function BookCollection() {
                         </div>
                     </div>
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
@@ -173,7 +173,7 @@ export default function BookCollection() {
                         </div>
                     </div>
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
@@ -198,7 +198,7 @@ export default function BookCollection() {
                         </div>
                     </div>
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
@@ -223,7 +223,7 @@ export default function BookCollection() {
                         </div>
                     </div>
                     <div className="border border-gray-200 rounded-lg p-4">
-                        <img src={BookOne} alt="book-1" className="mb-4 rounded-lg mx-auto" width="150" />
+                        <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                         <div className="text-center">
                             <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
                             <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>

@@ -1,14 +1,14 @@
 import React from 'react'
 
 // img
-import ImageDetail from '../../../../assets/images/pages/detail/img1.jpg'
+import BookLg from '../../../../assets/images/dummy-book/book-lg.jpg'
 
 export default function DetailsBook() {
     return (
         <section className="px-6 lg:px-20 pt-8">
             <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-8 items-center">
                 {/* img */}
-                <img src={ImageDetail} alt="" className="rounded-lg w-w-3/5 lg:w-4/5 mb-10 lg:mb-0" />
+                <img src={BookLg} alt="book-lg" className="rounded-lg w-w-3/5 lg:w-4/5 mb-10 lg:mb-0" />
                 {/* detail */}
                 <div className="w-full">
                     <h2 className="text-gray-900 font-bold text-3xl mb-4">All Good News</h2>

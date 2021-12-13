@@ -1,7 +1,7 @@
 import React from 'react'
 
 // images
-import BookOne from '../../../../assets/images/placeholder.jpg'
+import BookSm from '../../../../assets/images/dummy-book/book-sm.jpg'
 
 export default function RelatedBooks() {
     return (
@@ -11,7 +11,7 @@ export default function RelatedBooks() {
 
                 <div className="mt-6">
                     <div className="flex items-start space-x-4 font-medium mb-4">
-                        <img src={BookOne} alt="dummy-book" className="w-2/5" />
+                        <img src={BookSm} alt="book-sm" className="w-2/5" />
                         <div>
                             <h4 className="text-lg">Terible madnes</h4>
                             <p className="text-xs text-purple-500">THRILLE, DRAMA, HORROR</p>
@@ -35,7 +35,7 @@ export default function RelatedBooks() {
                     </div>
 
                     <div className="flex items-start space-x-4 font-medium mb-4">
-                        <img src={BookOne} alt="dummy-book" className="w-2/5" />
+                        <img src={BookSm} alt="book-sm" className="w-2/5" />
                         <div>
                             <h4 className="text-lg">Terible madnes</h4>
                             <p className="text-xs text-purple-500">THRILLE, DRAMA, HORROR</p>
@@ -59,7 +59,7 @@ export default function RelatedBooks() {
                     </div>
 
                     <div className="flex items-start space-x-4 font-medium mb-4">
-                        <img src={BookOne} alt="dummy-book" className="w-2/5" />
+                        <img src={BookSm} alt="book-sm" className="w-2/5" />
                         <div>
                             <h4 className="text-lg">Terible madnes</h4>
                             <p className="text-xs text-purple-500">THRILLE, DRAMA, HORROR</p>
