@@ -1,6 +1,5 @@
 import React from 'react'
 // img
-import BookOne from '../../../../assets/images/offers/img3.jpg'
 import BookLandscape from '../../../../assets/images/dummy-book/book-landscape.jpg'
 
 export default function Latenews() {

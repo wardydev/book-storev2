@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import CustomerService from '../../../components/CustomerService'
 import DetailProduct from '../../../components/DetailProduct'
 import './index.css'
