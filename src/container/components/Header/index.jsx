@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 // assets
 import Logo from '../../../assets/logo/logo.svg'
@@ -6,24 +6,35 @@ import Logo from '../../../assets/logo/logo.svg'
 // react router
 import { Link } from 'react-router-dom'
 import LoginModal from '../LoginModal'
+import { useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import { actionCreator } from '../../../redux'
 
 export default function Header() {
-    const [fakelogin, setFakeLogin] = useState(false)
-    const [bannerTitle, setBannerTitle] = useState(false)
+    const login = useSelector(state => state.login)
+    const {isLogin, greeting, changeLogin} = login
+    const dispatch = useDispatch()
+    const {handleLogin, handleGreeting} = bindActionCreators(actionCreator, dispatch)
+    const username = localStorage.getItem('isLogin')
     
-    const handleFakeLogin = () => {
-        setFakeLogin(!fakelogin)
-        setBannerTitle(!bannerTitle)
-    } 
+    const handleFakeLogin = (e) => {
+        e.preventDefault()
+        handleLogin(!isLogin)
+    }
+
+    setTimeout(() => {
+        handleGreeting(false)
+    }, 10000)
 
     return (
         <>
             {
-                bannerTitle && <section className='px-20 bg-purple-600 w-full py-4'>
-                <main className='text-white'>
-                    <h4 className='text-lg font-medium underline underline-offset-1'>Hello <span>Wardy</span>, Selamat datang ditoko buku kami, silahkan pilih buku yang anda sukai!!</h4>
-                </main>
-            </section>
+                greeting && <section className='px-20 bg-purple-600 w-full py-4'>
+                    <main className='text-white'>
+                        <h4 className='text-lg font-medium underline underline-offset-1'>Hello <span>{username}</span>, Selamat datang ditoko buku kami, silahkan pilih buku yang anda sukai!!</h4>
+                    </main>
+                </section>
             }
             <header className="px-6 lg:px-20 py-8">
                 <div className="container-header flex items-center justify-between">
@@ -77,7 +88,26 @@ export default function Header() {
                         </div>
                     </div>
 
-                    <div className="signs hidden lg:flex items-center space-x-6">
+                    {
+                        changeLogin ? <div className='flex items-center space-x-3'>
+                        <div className="rounded-lg border border-gray-300 p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </div>
+                        <Link to="/cart" className="rounded-lg border border-gray-300 p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </Link>
+                        <div className="py-2 px-4 bg-gray-300 rounded-lg">1</div>
+                        <div className="flex items-center space-x-4 bg-gray-100 py-2 px-2 rounded-lg">
+                            <span>EN</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                    </div> : <div className="signs hidden lg:flex items-center space-x-6">
                         <button className="text-sm font-medium py-2 px-3 bg-purple-100 text-purple-500 rounded-lg hover:bg-purple-200" onClick={handleFakeLogin}>Log in</button>
                         <button className="flex space-x-2 items-center justify-center py-2 px-3 bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -87,12 +117,13 @@ export default function Header() {
                         <span className='text-sm font-medium'>Sign Out</span>
                         </button>
                     </div>
+                    }
 
                 </div>
             </header>
 
             {
-                fakelogin && <LoginModal />
+                isLogin && <LoginModal />
             }
         </>
     )

@@ -24,3 +24,30 @@ export const topupSaldo = (ammount) => {
         })
     }
 }
+
+export const handleLogin = (status) => {
+    return dispatch => {
+        dispatch({
+            type: "ISLOGIN",
+            payload: status
+        })
+    }
+}
+
+export const handleGreeting = (greeting) => {
+    return dispatch => {
+        dispatch({
+            type: "ISGREETING",
+            payload: greeting
+        })
+    }
+}
+
+export const handleChangeLogin = (status) => {
+    return dispatch => {
+        dispatch({
+            type: "CHANGELOGIN",
+            payload: status
+        })
+    }
+}
