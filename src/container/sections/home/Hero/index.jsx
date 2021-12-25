@@ -6,6 +6,7 @@ import Slider from "react-slick";
 
 // assets
 import BookSm from '../../../../assets/images/dummy-book/book-sm.jpg'
+import { Link } from 'react-router-dom';
 
 // slider
 
@@ -19,7 +20,7 @@ export default function Hero() {
       };
 
     return (
-        <section className="px-6 lg:px-20">
+        <section className="px-6 lg:px-20 mt-32">
             <div className="container flex flex-col lg:flex-row space-x-0 lg:space-x-4">
                 <div className="hero-special mb-10 lg:mb-0 w-full lg:w-3/4 min-h-20 bg-purple-100 rounded-lg py-20 px-4 lg:px-16">
                     <div className="hero-title w-full lg:w-3/5">
@@ -36,7 +37,7 @@ export default function Hero() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>
                             </button>
-                            <button className="py-3 px-4 border border-purple-600 rounded-lg text-purple-600 hover:text-purple-700 w-full lg:w-auto font-medium">See Other Promos</button>
+                            <Link to="/books" className="py-3 px-4 border border-purple-600 rounded-lg text-purple-600 hover:text-purple-700 w-full lg:w-auto font-medium">See Other Promos</Link>
                         </div>
                     </div>
                 </div>
@@ -48,12 +49,16 @@ export default function Hero() {
 
                     <div className="w-full text-center h-64">
                         <Slider {...settings}>
-                            <div className="text-center rounded-lg overflow-hidden">
-                                <img src={BookSm} alt="book-sm" className="rounded-lg py-4" />
-                            </div>
-                            <div className="text-center rounded-lg overflow-hidden">
-                                <img src={BookSm} alt="book-sm" className="rounded-lg py-4" />
-                            </div>
+                            <Link to="/detail-book">
+                                <div className="text-center rounded-lg overflow-hidden">
+                                    <img src={BookSm} alt="book-sm" className="rounded-lg py-4" />
+                                </div>
+                            </Link>
+                            <Link to="/detail-book">
+                                <div className="text-center rounded-lg overflow-hidden">
+                                    <img src={BookSm} alt="book-sm" className="rounded-lg py-4" />
+                                </div>
+                            </Link>
                         </Slider>
                     </div>
 
@@ -61,10 +66,10 @@ export default function Hero() {
                     <div className='w-full lg:w-auto'>
                         <h4 className="font-medium text-lg text-gray-100">Pushing clouds</h4>
                         <p className="text-sm text-gray-300">ADVANTURE, SCIENCE, COMEDY</p>
-                        <button className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-3 px-6 rounded-lg mt-6 flex items-center justify-center space-x-2 w-full cursor-pointer relative z-10">
+                        <Link to="/checkout" className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-3 px-6 rounded-lg mt-6 flex items-center justify-center space-x-2 w-full cursor-pointer relative z-10">
                                 <span className="text-gray-400 line-through">$25</span>
                                 <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
-                        </button>
+                        </Link>
                     </div>
                 </div> 
             </div>

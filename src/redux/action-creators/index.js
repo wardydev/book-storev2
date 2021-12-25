@@ -51,3 +51,30 @@ export const handleChangeLogin = (status) => {
         })
     }
 }
+
+export const changeCartBool = (cart) => {
+    return dispatch => {
+        dispatch({
+            type: "ISCART",
+            payload: cart
+        })
+    }
+}
+
+export const handleCartCount = (count) => {
+    return dispatch => {
+        dispatch({
+            type: "CARTCOUNT",
+            payload: count
+        })
+    }
+}
+
+export const handleRemoveCartCount = (count) => {
+    return dispatch => {
+        dispatch({
+            type: "REMOVECARTCOUNT",
+            payload: count
+        })
+    }
+}

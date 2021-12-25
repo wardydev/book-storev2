@@ -2,6 +2,11 @@ import React from 'react'
 
 // react slider
 import Slider from 'react-slick'
+// images
+import Avatar1 from '../../../../assets/images/avatar/avatar-1.jpg'
+import Avatar2 from '../../../../assets/images/avatar/avatar-2.jpg'
+import Avatar3 from '../../../../assets/images/avatar/avatar-3.jpg'
+import Avatar4 from '../../../../assets/images/avatar/avatar-4.jpg'
 
 export default function Testimonial() {
         const settings = {
@@ -33,10 +38,18 @@ export default function Testimonial() {
                     <h3 className="text-4xl my-2 text-gray-900 font-bold">Flash Shale</h3>
                     <p className="text-gray-600 text-lg lg:text-base mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam consequuntur corrupti nam unde! Quaerat</p>
                     <div className="flex items-center justify-center -space-x-4">
-                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200"></div>
-                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200"></div>
-                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200"></div>
-                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200"></div>
+                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200 overflow-hidden">
+                            <img src={Avatar1} alt="avatar-1" />
+                        </div>
+                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200 overflow-hidden">
+                            <img src={Avatar2} alt="avatar-2" />
+                        </div>
+                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200 overflow-hidden">
+                            <img src={Avatar3} alt="avatar-3" />
+                        </div>
+                        <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-gray-200 overflow-hidden">
+                            <img src={Avatar4} alt="avatar-4" />
+                        </div>
                         <div className="w-16 h-16 rounded-full border-4 border-gray-50 bg-purple-500 flex justify-center items-center">
                             <span className="text-gray-50 font-medium">21k+</span>
                         </div>

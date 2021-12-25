@@ -17,6 +17,9 @@ export default function Header() {
     const dispatch = useDispatch()
     const {handleLogin, handleGreeting} = bindActionCreators(actionCreator, dispatch)
     const username = localStorage.getItem('isLogin')
+
+    const cart = useSelector(state => state.cart)
+    const {isCart, cartCount} = cart
     
     const handleFakeLogin = (e) => {
         e.preventDefault()
@@ -30,13 +33,13 @@ export default function Header() {
     return (
         <>
             {
-                greeting && <section className='px-20 bg-purple-600 w-full py-4'>
+                greeting && <section className='px-20 bg-purple-600 w-full py-4 fixed bottom-0 left-0 z-40'>
                     <main className='text-white'>
                         <h4 className='text-lg font-medium underline underline-offset-1'>Hello <span>{username}</span>, Selamat datang ditoko buku kami, silahkan pilih buku yang anda sukai!!</h4>
                     </main>
                 </section>
             }
-            <header className="px-6 lg:px-20 py-8">
+            <header className="px-6 lg:px-20 py-6 w-full fixed top-0 left-0 bg-white z-50 shadow-md">
                 <div className="container-header flex items-center justify-between">
                     <Link to="/" className='hidden lg:block'>
                         <img src={Logo} alt="book logo" width="130" />
@@ -76,11 +79,12 @@ export default function Header() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                             </svg>
                         </div>
-                        <div>
+                        <Link to="/cart" className='cursor-pointer realtive'>
+                            {isCart && <div className="flex items-center justify-center h-4 w-4 rounded-full bg-purple-500 text-white absolute top-7 right-14">{cartCount}</div>}
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                             </svg>
-                        </div>
+                        </Link>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -89,14 +93,17 @@ export default function Header() {
                     </div>
 
                     {
-                        changeLogin ? <div className='flex items-center space-x-3'>
-                        <div className="rounded-lg border border-gray-300 p-2">
+                        changeLogin && username !== "" ? <div className='flex items-center space-x-3'>
+                        <div className="rounded-lg border border-gray-300 p-2 text-purple-500">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                             </svg>
                         </div>
-                        <Link to="/cart" className="rounded-lg border border-gray-300 p-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <Link to="/cart" className="rounded-lg border border-gray-300 p-2 text-purple-500 relative">
+
+                            {isCart && <div className="flex items-center justify-center absolute -top-2 -right-2 bg-purple-500 text-yellow-400 w-5 h-5 text-xs rounded-full">{cartCount}</div>}
+
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                             </svg>
                         </Link>

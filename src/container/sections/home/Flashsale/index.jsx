@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 // image
 import BookLg from '../../../../assets/images/dummy-book/book-lg.jpg'
@@ -33,71 +34,81 @@ export default function Flashsale() {
                 </div>
                 {/* book card */}
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-x-0 gap-y-8 lg:gap-y-0 lg:gap-x-4">
-                    <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                        <div className='flex items-center justify-between'>
-                            <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                <p className="text-gray-600 text-sm">THRILLERR</p>
-                            </div>
-                            <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
-                                <span className="text-gray-400 line-through">$25</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                        <div className='flex items-center justify-between'>
-                            <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                <p className="text-gray-600 text-sm">THRILLERR</p>
-                            </div>
-                            <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
-                                <span className="text-gray-400 line-through">$25</span>
+                    <Link to="/detail-book">
+                        <div className="text-center w-9/12 lg:w-4/5 mx-auto">
+                            <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
+                            <div className='flex items-center justify-between'>
+                                <div className="text-center mb-4">
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                </div>
+                                <div className="flex justify-center items-center space-x-2">
+                                    <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                        <div className='flex items-center justify-between'>
-                            <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                <p className="text-gray-600 text-sm">THRILLERR</p>
-                            </div>
-                            <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
-                                <span className="text-gray-400 line-through">$25</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                        <div className='flex items-center justify-between'>
-                            <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                <p className="text-gray-600 text-sm">THRILLERR</p>
-                            </div>
-                            <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
-                                <span className="text-gray-400 line-through">$25</span>
+                    </Link>
+                    <Link to="/detail-book">
+                        <div className="text-center w-9/12 lg:w-4/5 mx-auto">
+                            <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
+                            <div className='flex items-center justify-between'>
+                                <div className="text-center mb-4">
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                </div>
+                                <div className="flex justify-center items-center space-x-2">
+                                    <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="text-center w-9/12 lg:w-4/5 mx-auto">
-                        <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                        <div className='flex items-center justify-between'>
-                            <div className="text-center mb-4">
-                                <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                <p className="text-gray-600 text-sm">THRILLERR</p>
-                            </div>
-                            <div className="flex justify-center items-center space-x-2">
-                                <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
-                                <span className="text-gray-400 line-through">$25</span>
+                    </Link>
+                    <Link to="/detail-book">
+                        <div className="text-center w-9/12 lg:w-4/5 mx-auto">
+                            <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
+                            <div className='flex items-center justify-between'>
+                                <div className="text-center mb-4">
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                </div>
+                                <div className="flex justify-center items-center space-x-2">
+                                    <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
+                    <Link to="/detail-book">
+                        <div className="text-center w-9/12 lg:w-4/5 mx-auto">
+                            <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
+                            <div className='flex items-center justify-between'>
+                                <div className="text-center mb-4">
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                </div>
+                                <div className="flex justify-center items-center space-x-2">
+                                    <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to="/detail-book">
+                        <div className="text-center w-9/12 lg:w-4/5 mx-auto">
+                            <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
+                            <div className='flex items-center justify-between'>
+                                <div className="text-center mb-4">
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
+                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                </div>
+                                <div className="flex justify-center items-center space-x-2">
+                                    <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
+                                    <span className="text-gray-400 line-through">$25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
                 </div>
 
             </div>

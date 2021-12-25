@@ -1,4 +1,8 @@
 import React from 'react'
+// images
+import Avatar1 from '../../../assets/images/avatar/avatar-1.jpg'
+import Avatar2 from '../../../assets/images/avatar/avatar-2.jpg'
+import Avatar3 from '../../../assets/images/avatar/avatar-3.jpg'
 
 export default function Reviews() {
     return (
@@ -24,7 +28,9 @@ export default function Reviews() {
                 <div className="border rounded-lg border-gray-300 p-8 flex flex-col lg:flex-row items-center justify-between space-x-0 lg:space-x-6 mb-4">
                     <div>
                         <div className="flex items-center space-x-4 mb-6">
-                            <div className="h-12 w-12 rounded-lg bg-red-500"></div>
+                        <div className="h-12 w-12 rounded-full overflow-hidden">
+                                <img src={Avatar3} alt="avatar-3" />
+                            </div>
                             <div>
                                 <h4 className='font-medium'>Davide Here</h4>
                                 <p className='text-sm text-gray-300'>4 Januari 2020</p>
@@ -56,7 +62,9 @@ export default function Reviews() {
                 <div className="border rounded-lg border-gray-300 p-8 flex flex-col lg:flex-row items-center justify-between space-x-0 lg:space-x-6 mb-4">
                     <div>
                         <div className="flex items-center space-x-4 mb-6">
-                            <div className="h-12 w-12 rounded-lg bg-red-500"></div>
+                        <div className="h-12 w-12 rounded-full overflow-hidden">
+                                <img src={Avatar2} alt="avatar-2" />
+                            </div>
                             <div>
                                 <h4 className='font-medium'>Davide Here</h4>
                                 <p className='text-sm text-gray-300'>4 Januari 2020</p>
@@ -88,7 +96,9 @@ export default function Reviews() {
                 <div className="border rounded-lg border-gray-300 p-8 flex flex-col lg:flex-row items-center justify-between space-x-0 lg:space-x-6 mb-4">
                     <div>
                         <div className="flex items-center space-x-4 mb-6">
-                            <div className="h-12 w-12 rounded-lg bg-red-500"></div>
+                            <div className="h-12 w-12 rounded-full overflow-hidden">
+                                <img src={Avatar1} alt="avatar-1" />
+                            </div>
                             <div>
                                 <h4 className='font-medium'>Davide Here</h4>
                                 <p className='text-sm text-gray-300'>4 Januari 2020</p>

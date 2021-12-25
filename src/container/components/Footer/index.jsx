@@ -3,6 +3,7 @@ import React from 'react'
 // img
 import Logo from '../../../assets/logo/logo.svg'
 import MapLocation from '../../../assets/images/footer/img1.JPG'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -10,7 +11,9 @@ export default function Footer() {
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 px-6 lg:px-20 mb-8 ">
                 <div className='mb-6 lg:mb-0'>
                     <div className="mb-4">
-                        <img src={Logo} alt="logo" className="mb-6" />
+                        <Link to="/">
+                            <img src={Logo} alt="logo" className="mb-6" />
+                        </Link>
                         <p className="text-gray-600">Bookoe is a Book Store Website lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                     <div>
