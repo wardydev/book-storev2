@@ -78,3 +78,36 @@ export const handleRemoveCartCount = (count) => {
         })
     }
 }
+
+export const handleShoppingSummaryStepper = (status) => {
+    return dispatch => {
+        dispatch({
+            type: "SHOPPINGSUMMARY",
+            payload: status
+        })
+    }
+}
+export const handleCheckoutStepper = (status) => {
+    return dispatch => {
+        dispatch({
+            type: "CHECKOUT",
+            payload: status
+        })
+    }
+}
+export const handlePaymentsStepper = (status) => {
+    return dispatch => {
+        dispatch({
+            type: "PAYMENTS",
+            payload: status
+        })
+    }
+}
+export const handleFinishedStepper = (status) => {
+    return dispatch => {
+        dispatch({
+            type: "FINISHED",
+            payload: status
+        })
+    }
+}
