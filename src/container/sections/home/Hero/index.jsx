@@ -7,6 +7,10 @@ import Slider from "react-slick";
 // assets
 import BookSm from '../../../../assets/images/dummy-book/book-sm.jpg'
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { actionCreator } from '../../../../redux';
+import { useSelector } from 'react-redux';
 
 // slider
 
@@ -18,6 +22,20 @@ export default function Hero() {
         slidesToShow: 1,
         slidesToScroll: 2
       };
+      const dispatch = useDispatch()
+      const {handleShoppingSummaryStepper,
+        handleCheckoutStepper,
+        handlePaymentsStepper,
+        handleFinishedStepper
+        }= bindActionCreators(actionCreator, dispatch)
+
+      const handleResetCheckout = () => {
+        handleShoppingSummaryStepper(true)
+        handleCheckoutStepper(false)
+        handlePaymentsStepper(false)
+        handleFinishedStepper(false)
+
+      }
 
     return (
         <section className="px-6 lg:px-20 mt-32">
@@ -66,7 +84,7 @@ export default function Hero() {
                     <div className='w-full lg:w-auto'>
                         <h4 className="font-medium text-lg text-gray-100">Pushing clouds</h4>
                         <p className="text-sm text-gray-300">ADVANTURE, SCIENCE, COMEDY</p>
-                        <Link to="/checkout" className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-3 px-6 rounded-lg mt-6 flex items-center justify-center space-x-2 w-full cursor-pointer relative z-10">
+                        <Link to="/checkout" onClick={handleResetCheckout} className="bg-gray-50 hover:bg-gray-200 text-gray-800 py-3 px-6 rounded-lg mt-6 flex items-center justify-center space-x-2 w-full cursor-pointer relative z-10">
                                 <span className="text-gray-400 line-through">$25</span>
                                 <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                         </Link>

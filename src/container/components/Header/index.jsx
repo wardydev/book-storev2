@@ -15,7 +15,7 @@ export default function Header() {
     const login = useSelector(state => state.login)
     const {isLogin, greeting, changeLogin} = login
     const dispatch = useDispatch()
-    const {handleLogin, handleGreeting} = bindActionCreators(actionCreator, dispatch)
+    const {handleLogin, handleGreeting, handleCartCount} = bindActionCreators(actionCreator, dispatch)
     const username = localStorage.getItem('isLogin')
 
     const cart = useSelector(state => state.cart)
@@ -29,6 +29,10 @@ export default function Header() {
     setTimeout(() => {
         handleGreeting(false)
     }, 10000)
+
+    const handleaddChart = () => {
+        handleCartCount(1)
+    }
 
     return (
         <>
@@ -99,7 +103,7 @@ export default function Header() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                             </svg>
                         </div>
-                        <Link to="/cart" className="rounded-lg border border-gray-300 p-2 text-purple-500 relative">
+                        <Link to="/cart" className="rounded-lg border border-gray-300 p-2 text-purple-500 relative" onClick={handleaddChart}>
 
                             {isCart && <div className="flex items-center justify-center absolute -top-2 -right-2 bg-purple-500 text-yellow-400 w-5 h-5 text-xs rounded-full">{cartCount}</div>}
 
@@ -107,11 +111,14 @@ export default function Header() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                             </svg>
                         </Link>
-                        <div className="py-2 px-4 bg-gray-300 rounded-lg">1</div>
-                        <div className="flex items-center space-x-4 bg-gray-100 py-2 px-2 rounded-lg">
-                            <span>EN</span>
+                        <div className="rounded-lg border border-gray-300 p-2 text-purple-500">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                            </svg>
+                        </div>
+                        <div className="rounded-lg border border-gray-300 p-2 text-purple-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                             </svg>
                         </div>
                     </div> : <div className="signs hidden lg:flex items-center space-x-6">

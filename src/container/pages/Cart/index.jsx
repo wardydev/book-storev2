@@ -9,7 +9,11 @@ import { Link } from 'react-router-dom'
 export default function Cart() {
     const cart = useSelector(state => state.cart)
     const dispatch = useDispatch()
-    const {handleRemoveCartCount} = bindActionCreators(actionCreator, dispatch)
+    const {handleRemoveCartCount,
+        handleShoppingSummaryStepper,
+        handleCheckoutStepper,
+        handlePaymentsStepper,
+        handleFinishedStepper} = bindActionCreators(actionCreator, dispatch)
     const [productCount, setProductCount] = useState(1)
     const [product, setProduct] = useState(0)
     const checkRef = useRef()
@@ -39,6 +43,13 @@ export default function Cart() {
         if(checkRef.current) {
             setProduct(prevState => prevState + 1)
         }
+    }
+
+    const handleResetCheckout = () => {
+        handleShoppingSummaryStepper(true)
+        handleCheckoutStepper(false)
+        handlePaymentsStepper(false)
+        handleFinishedStepper(false)
     }
 
     return (
@@ -110,7 +121,7 @@ export default function Cart() {
                             <h5 className='text-base font-medium text-gray-700'>Total harga</h5>
                             <span className='text-base font-medium text-gray-700'>Rp.200</span>
                         </div>
-                        <Link to="/checkout">
+                        <Link to="/checkout" onClick={handleResetCheckout}>
                         <button className="w-full py-3 text-white bg-purple-500 hover:bg-purple-600 rounded-lg font-medium">Bayar Sekarang</button>
                         </Link>
                     </div>

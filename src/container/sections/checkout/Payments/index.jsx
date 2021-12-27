@@ -21,8 +21,8 @@ export default function Payments() {
         handlePaymentsStepper(false)
     }
     return (
-        <main className="w-full px-36">
-            <div className="grid grid-cols-3 gap-x-3 mb-10">
+        <main className="w-full px-0 lg:px-36">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-0 lg:gap-x-3 gap-y-4 lg:gap-y-0 mb-10">
                 <div className="h-32 w-full border-2 border-gray-200 rounded-lg flex items-center justify-center cursor-pointer">
                     <div className="items-center">
                         <img src={Visa} alt="visa" className='w-2/4 mx-auto' />
@@ -55,7 +55,7 @@ export default function Payments() {
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 items-center space-x-0 lg:space-x-2 mb-6">
-                        <div className="flex items-end space-x-2">
+                        <div className="flex items-end space-x-2 w-full lg:w-auto mb-4 lg:mb-0">
                             <div className="flex flex-col space-y-2 w-full">
                                 <label htmlFor="expirydate" className="font-medium  text-gray-500 text-xs">EXPIRY DATE</label>
                                 <select id="expirydate" className='py-3 px-2 rounded-lg border border-gray-200 focus:outline-none'>
@@ -92,6 +92,14 @@ export default function Payments() {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mb-4" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
                             </svg>
+                        </div>
+                    </div>
+                    <hr className="w-full" />
+                    <div className='my-2 w-full py-4'>
+                        <h4 className="text-lg text-gray-700 font-medium">Ringkasan Belanja</h4>
+                        <div className="flex items-center justify-between">
+                            <p className="text-gray-600">Total Harga</p>
+                            <p className="text-gray-600">Rp80.000</p>
                         </div>
                     </div>
                     <button className="py-3 w-full text-gray-50 bg-purple-500 hover:bg-purple-600 rounded-lg">Finished Payment</button>

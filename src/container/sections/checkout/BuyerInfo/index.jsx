@@ -18,7 +18,7 @@ export default function BuyerInfo() {
     return (
         <main className="w-full mb-12 lg:mb-0">
             <h2 className="text-gray-900 font-bold text-3xl mb-12">Buyer Info</h2>
-            <div className="grid grid-cols-3 gap-x-10 items-start w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-0 lg:gap-x-10 items-start w-full">
                 <form action="" className='col-span-2'>
                     <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 items-center space-x-0 lg:space-x-2 mb-6">
                         <div className="flex flex-col space-y-2 w-full">
@@ -64,7 +64,7 @@ export default function BuyerInfo() {
                     </div>
                 </form>
 
-                <div className='p-4 shadow-md hidden lg:block rounded-lg'>
+                <div className='p-4 shadow-md rounded-lg'>
                     <h4 className='text-gray-700 text-base font-medium mb-4'>Ringkasan belanja</h4>
                     <div className="flex items-center justify-between mb-4">
                         <span className='text-gray-400'>Total Harga</span>

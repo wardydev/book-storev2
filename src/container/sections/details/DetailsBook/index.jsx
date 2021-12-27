@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { bindActionCreators } from 'redux'
 
 // img
 import BookLg from '../../../../assets/images/dummy-book/book-lg.jpg'
+import { actionCreator } from '../../../../redux'
 
 export default function DetailsBook() {
     const [productCount, setProductCount] = useState(1)
@@ -13,6 +16,20 @@ export default function DetailsBook() {
         if(productCount <= 0) {
             setProductCount(0)
         }
+    }
+
+    const dispatch = useDispatch()
+      const {handleShoppingSummaryStepper,
+        handleCheckoutStepper,
+        handlePaymentsStepper,
+        handleFinishedStepper
+        }= bindActionCreators(actionCreator, dispatch)
+
+    const handleResetCheckout = () => {
+        handleShoppingSummaryStepper(true)
+        handleCheckoutStepper(false)
+        handlePaymentsStepper(false)
+        handleFinishedStepper(false)
     }
 
     return (
@@ -109,7 +126,7 @@ export default function DetailsBook() {
                                 </svg>
                             </div>
                             <Link to="/checkout">
-                                <button className="w-full lg:w-auto py-2 px-6 bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-lg font-medium">Beli Sekarang</button>
+                                <button onClick={handleResetCheckout} className="w-full lg:w-auto py-2 px-6 bg-purple-500 hover:bg-purple-600 text-gray-50 rounded-lg font-medium">Beli Sekarang</button>
                             </Link>
                             <div className="p-2 rounded-lg border border-gray-200 hidden lg:block">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">

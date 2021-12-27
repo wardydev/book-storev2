@@ -1,6 +1,5 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import Features from '../../components/Features'
 import Layout from '../../components/Layout'
 import Stepper from '../../components/Stepper'
 import BuyerInfo from '../../sections/checkout/BuyerInfo'
@@ -15,7 +14,7 @@ export default function Checkout() {
     return (
         <Layout>
             <Stepper />
-            <section className="px-6 lg:px-36 py-16">
+            <section className="px-6 lg:px-36 py-16 mb-20">
                 <main>
                     {shoppingSummary && <BuyerInfo />}
                     {checkout && <CheckoutInfo />}
@@ -23,7 +22,6 @@ export default function Checkout() {
                     {finished && <Finished />}
                 </main>
             </section>
-            <Features />
         </Layout>
     )
 }

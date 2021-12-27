@@ -18,7 +18,7 @@ export default function CheckoutInfo() {
     return (
         <main className="w-full mb-12 lg:mb-0">
             <h2 className="text-gray-900 font-bold text-3xl mb-12">Checkout</h2>
-            <div className="grid grid-cols-3 gap-x-10 items-start w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-0 lg:gap-x-10 items-start w-full">
                 <div className="col-span-2">
                     <div className="mb-12">
                         <h4 className="text-xl mb-4 text-gray-800 font-medium">Alamat Pengiriman</h4>
@@ -44,7 +44,7 @@ export default function CheckoutInfo() {
                     </div>
                 </div>
 
-                <div className='p-4 shadow-md hidden lg:block rounded-lg'>
+                <div className='p-4 shadow-md rounded-lg mt-12 lg:mt-0'>
                     <h4 className='text-gray-700 text-base font-medium mb-4'>Ringkasan belanja</h4>
                     <div className="flex items-center justify-between mb-4">
                         <span className='text-gray-400'>Total Harga</span>
