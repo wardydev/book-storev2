@@ -96,10 +96,10 @@ export default function Payments() {
                     </div>
                     <hr className="w-full" />
                     <div className='my-2 w-full py-4'>
-                        <h4 className="text-lg text-gray-700 font-medium">Ringkasan Belanja</h4>
+                        <h4 className="text-lg text-gray-700 font-medium">Shopping Summary</h4>
                         <div className="flex items-center justify-between">
-                            <p className="text-gray-600">Total Harga</p>
-                            <p className="text-gray-600">Rp80.000</p>
+                            <p className="text-gray-600">Total Price</p>
+                            <p className="text-gray-600">$18,78</p>
                         </div>
                     </div>
                     <button className="py-3 w-full text-gray-50 bg-purple-500 hover:bg-purple-600 rounded-lg">Finished Payment</button>

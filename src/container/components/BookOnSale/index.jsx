@@ -43,8 +43,8 @@ export default function BookOnSale() {
                             <div>
                                 <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                                 <div className="mt-4 mb-4">
-                                    <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
-                                    <p className="text-gray-500">ADVANTURE, SURVIVAL</p>
+                                    <h4 className="text-gray-900 font-medium">The Raven Boys</h4>
+                                    <p className="text-gray-500">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-between items-center">
                                     <div className="flex items-center space-x-1">
@@ -53,7 +53,7 @@ export default function BookOnSale() {
                                         </svg>
                                         <span className="text-yellow-500">4.6</span>
                                     </div>
-                                    <span className="font-medium text-2xl">$45.4</span>
+                                    <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                                 </div>
                             </div>
                         </Link>
@@ -61,8 +61,8 @@ export default function BookOnSale() {
                             <div>
                                 <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                                 <div className="mt-4 mb-4">
-                                    <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
-                                    <p className="text-gray-500">ADVANTURE, SURVIVAL</p>
+                                    <h4 className="text-gray-900 font-medium">The Raven Boys</h4>
+                                    <p className="text-gray-500">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-between items-center">
                                     <div className="flex items-center space-x-1">
@@ -71,7 +71,7 @@ export default function BookOnSale() {
                                         </svg>
                                         <span className="text-yellow-500">4.6</span>
                                     </div>
-                                    <span className="font-medium text-2xl">$45.4</span>
+                                    <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                                 </div>
                             </div>
                         </Link>
@@ -79,8 +79,8 @@ export default function BookOnSale() {
                             <div>
                                 <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                                 <div className="mt-4 mb-4">
-                                    <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
-                                    <p className="text-gray-500">ADVANTURE, SURVIVAL</p>
+                                    <h4 className="text-gray-900 font-medium">The Raven Boys</h4>
+                                    <p className="text-gray-500">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-between items-center">
                                     <div className="flex items-center space-x-1">
@@ -89,7 +89,7 @@ export default function BookOnSale() {
                                         </svg>
                                         <span className="text-yellow-500">4.6</span>
                                     </div>
-                                    <span className="font-medium text-2xl">$45.4</span>
+                                    <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                                 </div>
                             </div>
                         </Link>
@@ -97,8 +97,8 @@ export default function BookOnSale() {
                             <div>
                                 <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                                 <div className="mt-4 mb-4">
-                                    <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
-                                    <p className="text-gray-500">ADVANTURE, SURVIVAL</p>
+                                    <h4 className="text-gray-900 font-medium">The Raven Boys</h4>
+                                    <p className="text-gray-500">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-between items-center">
                                     <div className="flex items-center space-x-1">
@@ -107,7 +107,7 @@ export default function BookOnSale() {
                                         </svg>
                                         <span className="text-yellow-500">4.6</span>
                                     </div>
-                                    <span className="font-medium text-2xl">$45.4</span>
+                                    <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                                 </div>
                             </div>
                         </Link>
@@ -115,8 +115,8 @@ export default function BookOnSale() {
                             <div>
                                 <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                                 <div className="mt-4 mb-4">
-                                    <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
-                                    <p className="text-gray-500">ADVANTURE, SURVIVAL</p>
+                                    <h4 className="text-gray-900 font-medium">The Raven Boys</h4>
+                                    <p className="text-gray-500">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-between items-center">
                                     <div className="flex items-center space-x-1">
@@ -125,7 +125,7 @@ export default function BookOnSale() {
                                         </svg>
                                         <span className="text-yellow-500">4.6</span>
                                     </div>
-                                    <span className="font-medium text-2xl">$45.4</span>
+                                    <h4 className="text-gray-900 text-2xl font-bold rounded-lg">$18,78</h4>
                                 </div>
                             </div>
                         </Link>
@@ -133,8 +133,8 @@ export default function BookOnSale() {
                             <div>
                                 <img src={BookLg} alt="book-lg" className="w-full rounded-lg" />
                                 <div className="mt-4 mb-4">
-                                    <h4 className="text-gray-900 font-medium">The Missadventure of..</h4>
-                                    <p className="text-gray-500">ADVANTURE, SURVIVAL</p>
+                                    <h4 className="text-gray-900 font-medium">The Raven Boys</h4>
+                                    <p className="text-gray-500">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-between items-center">
                                     <div className="flex items-center space-x-1">
@@ -143,7 +143,7 @@ export default function BookOnSale() {
                                         </svg>
                                         <span className="text-yellow-500">4.6</span>
                                     </div>
-                                    <span className="font-medium text-2xl">$45.4</span>
+                                    <h4 className="text-2xl font-bold rounded-lg text-purple-500">$18,78</h4>
                                 </div>
                             </div>
                         </Link>

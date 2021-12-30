@@ -39,7 +39,7 @@ export default function DetailsBook() {
                 <img src={BookLg} alt="book-lg" className="rounded-lg w-full lg:w-3/5 mb-10 lg:mb-0" />
                 {/* detail */}
                 <div className="w-full">
-                    <h2 className="text-gray-900 font-bold text-3xl mb-4">All Good News</h2>
+                    <h2 className="text-gray-900 font-bold text-3xl mb-4">The Raven Boys</h2>
                     <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between w-full">
                         <div className="flex space-x-6 lg:space-x-8 items-center mb-6 lg:mb-0">
                             <div className="flex items-center">
@@ -88,16 +88,16 @@ export default function DetailsBook() {
                                 <div className="h-10 w-10 bg-gray-400 rounded-lg mb-4 lg:mb-0"></div>
                                 <div className="flex flex-col">
                                     <small className="text-gray-400">Written By</small>
-                                    <b className="text-gray-800">Kevin smilley</b>
+                                    <b className="text-gray-800">Maggie Stiefvater</b>
                                 </div>
                             </div>
                             <div className="flex flex-col">
                                 <small className="text-gray-400">Publisher</small>
-                                <b className="text-gray-800">Kevin smilley</b>
+                                <b className="text-gray-800">Scholastic</b>
                             </div>
                             <div className="flex flex-col">
                                 <small className="text-gray-400">Year</small>
-                                <b className="text-gray-800">2019</b>
+                                <b className="text-gray-800">2012</b>
                             </div>
                         </div>
                         <div className="flex items-center space-x-4 w-full lg:w-auto">
@@ -108,8 +108,8 @@ export default function DetailsBook() {
                     <hr className="border-dashed border-t-2 border-gray-400" />
                     <div className="flex flex-col lg:flex-row w-full lg:w-auto justify-between items-start lg:items-center mt-12 lg:mt-6">
                         <div className="flex items-center space-x-4 mb-6 lg:mb-0 lg:space-x-6">
-                            <h2 className="text-gray-900 font-bold text-3xl">$15,63</h2>
-                            <span className="text-gray-300">$16,99</span>
+                            <h2 className="text-gray-900 font-bold text-3xl">$18,78</h2>
+                            <span className="text-gray-300">$25</span>
                             <span className="bg-yellow-500 px-3 text-gray-50 rounded-full">2%</span>
                         </div>
                         <div className="flex items-center w-full lg:w-auto justify-between lg:justify-start space-x-5">

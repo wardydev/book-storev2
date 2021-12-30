@@ -37,10 +37,10 @@ export default function Flashsale() {
                     <Link to="/detail-book">
                         <div className="text-center w-9/12 lg:w-4/5 mx-auto">
                             <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                            <div className='flex items-center justify-between'>
+                            <div className='flex lg:flex-col flex-row items-center justify-between'>
                                 <div className="text-center mb-4">
-                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">The Raven Boys</h4>
+                                    <p className="text-gray-600 text-sm">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-center items-center space-x-2">
                                     <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
@@ -52,10 +52,10 @@ export default function Flashsale() {
                     <Link to="/detail-book">
                         <div className="text-center w-9/12 lg:w-4/5 mx-auto">
                             <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                            <div className='flex items-center justify-between'>
+                            <div className='flex lg:flex-col flex-row items-center justify-between'>
                                 <div className="text-center mb-4">
-                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">The Raven Boys</h4>
+                                    <p className="text-gray-600 text-sm">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-center items-center space-x-2">
                                     <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
@@ -67,10 +67,10 @@ export default function Flashsale() {
                     <Link to="/detail-book">
                         <div className="text-center w-9/12 lg:w-4/5 mx-auto">
                             <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                            <div className='flex items-center justify-between'>
+                            <div className='flex lg:flex-col flex-row items-center justify-between'>
                                 <div className="text-center mb-4">
-                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">The Raven Boys</h4>
+                                    <p className="text-gray-600 text-sm">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-center items-center space-x-2">
                                     <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
@@ -82,10 +82,10 @@ export default function Flashsale() {
                     <Link to="/detail-book">
                         <div className="text-center w-9/12 lg:w-4/5 mx-auto">
                             <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                            <div className='flex items-center justify-between'>
+                            <div className='flex lg:flex-col flex-row items-center justify-between'>
                                 <div className="text-center mb-4">
-                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">The Raven Boys</h4>
+                                    <p className="text-gray-600 text-sm">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-center items-center space-x-2">
                                     <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>
@@ -97,10 +97,10 @@ export default function Flashsale() {
                     <Link to="/detail-book">
                         <div className="text-center w-9/12 lg:w-4/5 mx-auto">
                             <img src={BookLg} alt="book-lg" className="mx-auto rounded-lg mb-4" />
-                            <div className='flex items-center justify-between'>
+                            <div className='flex lg:flex-col flex-row items-center justify-between'>
                                 <div className="text-center mb-4">
-                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">Second</h4>
-                                    <p className="text-gray-600 text-sm">THRILLERR</p>
+                                    <h4 className="text-gray-800 font-medium text-2xl lg:text-xl">The Raven Boys</h4>
+                                    <p className="text-gray-600 text-sm">Maggie Stiefvater</p>
                                 </div>
                                 <div className="flex justify-center items-center space-x-2">
                                     <h4 className="text-purple-600 text-2xl lg:text-xl font-medium rounded-lg">$18,78</h4>

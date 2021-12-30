@@ -32,7 +32,7 @@ export default function SpecialOffers() {
                         </Link>
 
                         <div className="px-4 py-5">
-                            <h4 className="text-gray-900 text-2xl font-medium mb-4">SECONDS [Part 1]</h4>
+                            <h4 className="text-gray-900 text-2xl font-medium mb-4">The Raven Boys</h4>
                             <div className="flex space-x-2 items-center mb-4">
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full cursor-default">BIOGRAPHY</button>
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full cursor-default">THRILLER</button>
@@ -40,7 +40,7 @@ export default function SpecialOffers() {
                             </div>
                             <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
-                            <b className="mb-4">Kevin Smiley</b>
+                            <b className="mb-4">Maggie Stiefvater</b>
                             <div className="flex justify-between items-center mt-4">
                                 <button onClick={handleCart} className="bg-purple-500 hover:bg-purple-600 text-gray-50 py-2 px-4 rounded-lg flex items-center space-x-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -62,7 +62,7 @@ export default function SpecialOffers() {
                         </Link>
 
                         <div className="px-4 py-5">
-                            <h4 className="text-gray-900 text-2xl font-medium mb-4">Terrible Madness</h4>
+                            <h4 className="text-gray-900 text-2xl font-medium mb-4">The Raven Boys</h4>
                             <div className="flex space-x-2 items-center mb-4">
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full cursor-default">BIOGRAPHY</button>
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full cursor-default">THRILLER</button>
@@ -70,7 +70,7 @@ export default function SpecialOffers() {
                             </div>
                             <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
-                            <b className="mb-4">Kevin Smiley</b>
+                            <b className="mb-4">Maggie Stiefvater</b>
                             <div className="flex justify-between items-center mt-4">
                                 <button onClick={handleCart} className="bg-purple-500 hover:bg-purple-600 text-gray-50 py-2 px-4 rounded-lg flex items-center space-x-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -92,7 +92,7 @@ export default function SpecialOffers() {
                         </Link>
 
                         <div className="px-4 py-5">
-                            <h4 className="text-gray-900 text-2xl font-medium mb-4">Rework</h4>
+                            <h4 className="text-gray-900 text-2xl font-medium mb-4">The Raven Boys</h4>
                             <div className="flex space-x-2 items-center mb-4">
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full cursor-default">BIOGRAPHY</button>
                                 <button className="bg-purple-100 text-purple-600 px-4 py-1 text-1xl rounded-full cursor-default">THRILLER</button>
@@ -100,7 +100,7 @@ export default function SpecialOffers() {
                             </div>
                             <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
-                            <b className="mb-4">Kevin Smiley</b>
+                            <b className="mb-4">Maggie Stiefvater</b>
                             <div className="flex justify-between items-center mt-4">
                                 <button onClick={handleCart} className="bg-purple-500 hover:bg-purple-600 text-gray-50 py-2 px-4 rounded-lg flex items-center space-x-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

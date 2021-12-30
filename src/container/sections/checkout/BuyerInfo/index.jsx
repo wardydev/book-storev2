@@ -65,18 +65,18 @@ export default function BuyerInfo() {
                 </form>
 
                 <div className='p-4 shadow-md rounded-lg'>
-                    <h4 className='text-gray-700 text-base font-medium mb-4'>Ringkasan belanja</h4>
+                    <h4 className='text-gray-700 text-base font-medium mb-4'>Shopping Summary</h4>
                     <div className="flex items-center justify-between mb-4">
-                        <span className='text-gray-400'>Total Harga</span>
-                        <span className='text-gray-400'>Rp80.000</span>
+                        <span className='text-gray-400'>Total Price</span>
+                        <span className='text-gray-400'>$18,78</span>
                     </div>
                     <hr className="w-full mb-4" />
 
                     <div className="flex items-center justify-between mb-4">
-                        <h5 className='text-base font-medium text-gray-700'>Total harga</h5>
-                        <span className='text-base font-medium text-gray-700'>Rp.200</span>
+                        <h5 className='text-base font-medium text-gray-700'>Total Price</h5>
+                        <span className='text-base font-medium text-gray-700'>$18,78</span>
                     </div>
-                    <button onClick={checkoutStepper} className="w-full py-3 text-white bg-purple-500 hover:bg-purple-600 rounded-lg font-medium">Checkout Sekarang</button>
+                    <button onClick={checkoutStepper} className="w-full py-3 text-white bg-purple-500 hover:bg-purple-600 rounded-lg font-medium">Checkout Now</button>
                 </div>
             </div>
         </main>

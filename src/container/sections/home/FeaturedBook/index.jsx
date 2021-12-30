@@ -40,8 +40,8 @@ export default function FeaturedBook() {
                                 </svg>
 
                                 <div>
-                                    <h4 className="text-gray-800 font-medium text-2xl">Battle Drive</h4>
-                                    <p className="text-gray-500">Sport, Thriller</p>
+                                    <h4 className="text-gray-800 font-medium text-2xl">The Raven Boys</h4>
+                                    <p className="text-gray-500">Paperback ,The Raven Cycle, English</p>
                                 </div>
 
                             </div>
@@ -52,11 +52,11 @@ export default function FeaturedBook() {
                             <div className="flex space-x-4 mb-6">
                                 <div>
                                     <p className="text-gray-500">Written By</p>
-                                    <b>Kevin Smiley</b>
+                                    <b>Maggie Stiefvater</b>
                                 </div>
                                 <div>
                                     <p className="text-gray-500">Year</p>
-                                    <b>2019</b>
+                                    <b>2012</b>
                                 </div>
                             </div>
 

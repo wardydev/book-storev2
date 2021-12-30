@@ -57,7 +57,7 @@ export default function Cart() {
             <section className="px-6 mt-32 lg:px-40 py-8 border-t">
                 <main className='grid grid-cols-1 lg:grid-cols-3 items-start gap-12'>
                     <div className='col-span-2 w-full lg:w-auto'>
-                        <h2 className='text-2xl text-gray-800 font-medium'>Keranjang</h2>
+                        <h2 className='text-2xl text-gray-800 font-medium'>Carts</h2>
 
                         {
                             carts.map((i) => {
@@ -70,16 +70,16 @@ export default function Cart() {
                                                 <img src={CartImage} className='w-20' alt='cart' />
                                             </Link>
                                             <div>
-                                                <h4 className='text-base lg:text-lg text-gray-700'>Jaket Olahraga IMPORT Anti Sinar UV / Anti Air Unisex Pria dan Wanit</h4>
-                                                <p className='text-gray-400 mb-2 text-sm lg:text-base'>Biru Muda, M</p>
-                                                <b className='text-gray-700'>Rp80.000</b>
+                                                <h4 className='text-base lg:text-lg text-gray-700'>The Raven Boys</h4>
+                                                <p className='text-gray-400 mb-2 text-sm lg:text-base'>Maggie Stiefvater, English</p>
+                                                <b className='text-gray-700'>$18,78</b>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center pl-0 lg:pl-7">
-                                        <span className='text-purple-500 cursor-pointer mb-4 lg:mb-0'>Tulis Catetan</span>
+                                        <span className='text-purple-500 cursor-pointer mb-4 lg:mb-0'>Add Note</span>
                                         <div className='flex justify-between lg:justify-start space-x-0 lg:space-x-4 items-center w-full lg:w-auto'>
-                                            <span className='text-gray-400'>Pindahkan ke Whislist</span>
+                                            <span className='text-gray-400 cursor-pointer'>Add to Wishlist</span>
                                             <hr className="h-6 border-l-4 hidden lg:block" />
                                             
                                             <div className='flex items-center'>
@@ -110,19 +110,19 @@ export default function Cart() {
                         
                     </div>
                     <div className='p-4 shadow-md hidden lg:block'>
-                        <h4 className='text-gray-700 text-base font-medium mb-4'>Ringkasan belanja</h4>
+                        <h4 className='text-gray-700 text-base font-medium mb-4'>Shopping Summary</h4>
                         <div className="flex items-center justify-between mb-4">
-                            <span className='text-gray-400'>Total Harga ({`${product} barang`}) </span>
-                            <span className='text-gray-400'>Rp80.000</span>
+                            <span className='text-gray-400'>Total price ({`${product} barang`}) </span>
+                            <span className='text-gray-400'>$18,78</span>
                         </div>
                         <hr className="w-full mb-4" />
 
                         <div className="flex items-center justify-between mb-4">
-                            <h5 className='text-base font-medium text-gray-700'>Total harga</h5>
-                            <span className='text-base font-medium text-gray-700'>Rp.200</span>
+                            <h5 className='text-base font-medium text-gray-700'>Total price</h5>
+                            <span className='text-base font-medium text-gray-700'>$18,78</span>
                         </div>
                         <Link to="/checkout" onClick={handleResetCheckout}>
-                        <button className="w-full py-3 text-white bg-purple-500 hover:bg-purple-600 rounded-lg font-medium">Bayar Sekarang</button>
+                        <button className="w-full py-3 text-white bg-purple-500 hover:bg-purple-600 rounded-lg font-medium">Pay Now</button>
                         </Link>
                     </div>
                 </main>
@@ -132,7 +132,7 @@ export default function Cart() {
                 <main className='flex items-center justify-between'>
                     <div className='flex flex-col'>
                         <span className="text-base text-gray-400">Total harga</span>
-                        <span className='text-lg font-medium text-gray-700'>Rp80.000</span>
+                        <span className='text-lg font-medium text-gray-700'>$18,78</span>
                     </div>
                     <Link to="/checkout" className="py-3 px-6 text-white bg-purple-500 hover:bg-purple-600 rounded-lg font-medium">Beli Sekarang</Link>
                 </main>

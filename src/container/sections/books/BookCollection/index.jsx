@@ -51,8 +51,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
@@ -78,8 +78,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
@@ -106,8 +106,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
@@ -133,8 +133,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
@@ -160,8 +160,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
@@ -187,8 +187,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
@@ -214,8 +214,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
@@ -241,8 +241,8 @@ export default function BookCollection() {
                         <div className="border border-gray-200 rounded-lg p-4">
                             <img src={BookSm} alt="book-sm" className="mb-4 rounded-lg mx-auto" width="150" />
                             <div className="text-center">
-                                <h5 className="font-medium text-gray-800">Thunder Stunt</h5>
-                                <p className="text-purple-500">ADVANTURE, SCIENCE, COMEDY</p>
+                                <h5 className="font-medium text-gray-800">The Raven Boys</h5>
+                                <p className="text-purple-500">Maggie Stiefvater</p>
 
                                 <div className="flex items-center justify-center space-x-2 mt-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
